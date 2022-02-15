@@ -5,35 +5,35 @@
       "title": "About Me",
       "author": [],
       "contents": "\nMichael Weylandt is currently an Intelligence Community Postdoctoral Fellow, working with George Michailidis at the University of Florida. His work focuses on statistical machine learning theory for structured multivariate time series, viewed through a graphical model lens. His work has been recognized with best paper awards from the American Statistical Association in both Statistical Learning and Data Science and in Business & Economic Statistics. He has served as a mentor in the Google Summer of Code program for 7 years on behalf of the R Foundation for Statistical Computing and previously held an NSF Graduate Research Fellowship. Prior to beginning his Ph.D. studies, he worked at Morgan Stanley as a quantitative analyst, focusing on derivatives pricing and financial risk management. He received a Bachelor’s of Science in Engineering from Princeton University in 2008 and a Ph.D. in Statistics from Rice University in 2020.\nFor more details, see my Full CV.\n\n\n\n",
-      "last_modified": "2022-02-15T13:57:58-06:00"
+      "last_modified": "2022-02-15T16:42:11-06:00"
     },
     {
       "path": "contact.html",
       "title": "Contact Information",
       "author": [],
       "contents": "\nLike most folks, I continue to work remotely most days. If you want to get in touch, please email me at michael.weylandt@ufl.edu or give me a call at 713-204-9366.\n\n\n\n",
-      "last_modified": "2022-02-15T13:57:58-06:00"
+      "last_modified": "2022-02-15T16:42:11-06:00"
     },
     {
       "path": "index.html",
       "title": "Welcome!",
       "author": [],
       "contents": "\nHello and welcome to my website! My name is Michael Weylandt. I am currently an US Intelligence Community Postdoctoral Research Fellow hosted at the University of Florida Informatics Institute, where I am advised by George Michailidis as well as two mentors from the Intelligence Community. Before this, I earned my Ph.D. at Rice University in 2020, worked in finance from 2013 to 2015, and taught at Sherborne School in the UK from 2012 to 2013. My research is in statistical machine learning, with a recent focus on network data and in machine learning fairness. For a more formal bio, please see my CV and my About page. More detail on my Publications and Software can be found on those pages.\n\n\n\n",
-      "last_modified": "2022-02-15T13:57:59-06:00"
+      "last_modified": "2022-02-15T16:42:12-06:00"
     },
     {
       "path": "publications.html",
       "title": "Publications",
       "author": [],
-      "contents": "\nBelow is a list of my publications: for more details on each publication, click for details.\nSubmitted\nM. Weylandt and G. Michailidis. “Coupled CP Decomposition for Principal Components Analysis of Symmetric Networks”\nM. Weylandt and G. I. Allen. “Debiasing Projections for Fair Principal Components Analysis”\nM. Navarro, G. I. Allen, and M. Weylandt. “Network Clustering for Latent State and Changepoint Detection”\nM. Weylandt, Y. Han, and K. B. Ensor. “Multivariate Modeling of Natural Gas Spot Trading Hubs Incorporating Futures Market Realized Volatility”\nWinner of the ASA Section on Business and Economic Statistics (B&E) 2020 Student Paper Competition\nA.P. Drager, M. Weylandt, G. Chuyong, D. Kenfack, D.W. Thomas, and A.E. Dunham. “Ecological correlates of reproductive status in a guild of Afrotropical understory trees.”\n\n\n\n",
-      "last_modified": "2022-02-15T13:57:59-06:00"
+      "contents": "\nBelow is a list of my publications: for more details on each publication, click for details.\nSubmitted\nM. Weylandt and G. Michailidis. “Coupled CP Decomposition for Principal Components Analysis of Symmetric Networks”\nM. Weylandt and G. I. Allen. “Debiasing Projections for Fair Principal Components Analysis”\nM. Navarro, G. I. Allen, and M. Weylandt. “Network Clustering for Latent State and Changepoint Detection”\nM. Weylandt, Y. Han, and K. B. Ensor. “Multivariate Modeling of Natural Gas Spot Trading Hubs Incorporating Futures Market Realized Volatility”\nWinner of the ASA Section on Business and Economic Statistics (B&E) 2020 Student Paper Competition\nA.P. Drager, M. Weylandt, G. Chuyong, D. Kenfack, D.W. Thomas, and A.E. Dunham. “Ecological correlates of reproductive status in a guild of Afrotropical understory trees.”\nPublished\nM. Weylandt, G. Michailidis, and T. M. Roddenberry. “Sparse Partial Least Squares for Coarse Noisy Graph Alignment.” SSP 2021: Proceedings of the 2021 IEEE Statistical Signal Processing Workshop 2021, pp.561-565. 2021.\nM. Weylandt, T.M. Roddenberry, and G. I. Allen. “Simultaneous Grouping and Denoising via Sparse Convex Wavelet Clustering.” DSLW 2021: Proceedings of the IEEE Data Science and Learning Workshop 2021. pp.1-8. 2021.\nM. Weylandt and G. Michailidis. “Automatic Registration and Convex Clustering of Time Series.” ICASSP 2021: Proceedings of the 2021 IEEE International Conference on Acoustics, Speech and Signal Processing, pp.5609-5613. 2021.\nJ.S. Morris, M.M. Hassan, Y.E. Zohner, Z. Wang, L. Xiao, A. Rashid, A. Haque, R. Abdel-Wahad, Y.A. Mohamed, K.L. Ballard, R.A. Wolff, B. George, L. Li, G. I. Allen, M. Weylandt, D. Li, W. Wang, K. Raghav, J. Yao, H.M. Amin, and A.O. Kaseb. “HepatoScore‐14: Measures of biological heterogeneity significantly improve prediction of hepatocellular carcinoma risk.” Hepatology 73(6), pp. 2278-2292. 2021.\nM. Weylandt. “Multi-Rank Sparse and Functional PCA: Manifold Optimization and Iterative Deflation Techniques.” CAMSAP 2019: Proceedings of the IEEE 8th International Workshop on Computational Advances in Multi-Sensor Adaptive Processing, pp.500-504. 2019.\nM. Weylandt, J. Nagorski, and G. I. Allen. “Interactive Visualizations and Fast Computation for Convex Clustering via Algorithmic Regularization.” Journal of Computational and Graphical Statistics 29(1), pp. 87-96. 2020.\nWinner of the ASA Section on Statistical Learning and Data Science (SLDS) 2019 Student Paper Competition\nM. Weylandt. “Splitting Methods for Convex Bi-Clustering and Co-Clustering.” DSW 2019: Proceedings of the IEEE Data Science Workshop 2019, pp.237-244. 2019.\nG. I. Allen and M. Weylandt. “Sparse and Functional Principal Components Analysis.” DSW 2019: Proceedings of the IEEE Data Science Workshop 2019, pp.11-16. 2019.\n\n\n\n",
+      "last_modified": "2022-02-15T16:42:12-06:00"
     },
     {
       "path": "software.html",
       "title": "Michael Weylandt",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-02-15T13:57:59-06:00"
+      "last_modified": "2022-02-15T16:42:13-06:00"
     }
   ],
   "collections": ["posts/posts.json"]

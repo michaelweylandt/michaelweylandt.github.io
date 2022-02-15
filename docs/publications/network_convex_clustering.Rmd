@@ -13,9 +13,15 @@ author:
 output: distill::distill_article
 ---
 
-Network models provide a powerful and flexible framework for analyzing a wide range of structured data sources. In many situations of interest, however, multiple networks can be constructed to capture different aspects of an underlying phenomenon or to capture changing behavior over time. In such settings, it is often useful to \emph{cluster} together related networks in attempt to identify patterns of common structure. In this paper, we propose a convex approach for the task of network clustering. Our approach uses a convex fusion penalty to induce a smoothly-varying tree-like cluster structure, eliminating the need to select the number of clusters \emph{a priori}. We provide an efficient algorithm for convex network clustering and demonstrate its effectiveness on synthetic examples. 
+**Abstract:** Network models provide a powerful and flexible framework for analyzing a wide range of structured data sources. In many situations of interest, however, multiple networks can be constructed to capture different aspects of an underlying phenomenon or to capture changing behavior over time. In such settings, it is often useful to \emph{cluster} together related networks in attempt to identify patterns of common structure. In this paper, we propose a convex approach for the task of network clustering. Our approach uses a convex fusion penalty to induce a smoothly-varying tree-like cluster structure, eliminating the need to select the number of clusters \emph{a priori}. We provide an efficient algorithm for convex network clustering and demonstrate its effectiveness on synthetic examples. 
 
+**Working Copy:** ArXiv [2111.01273](https://arxiv.org/abs/2111.01273)
 
+<hr> 
+
+**Summary:** We consider the problem of clustering a set of networks. We "stack" these networks into a tensor format and then re-rexpress the network clustering problem as a tensor co-clustering problem. We solve this tensor co-clustering problem using a variant of convex (co-)clustering and provide an efficient algorithm for the resulting optimization problem.
+
+![Schematic Diagram of Convex Network Clustering](../assets/network_convex_clustering/schematic.png)
 
 
 
