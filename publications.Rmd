@@ -1,0 +1,19 @@
+---
+title: "Publications"
+---
+
+Below is a list of my publications: for more details on each publication, click for details. 
+
+## Submitted 
+
+- **M. Weylandt** and G. Michailidis. "[Coupled CP Decomposition for Principal Components Analysis of Symmetric Networks](publications/ccpd.html)"
+
+- **M. Weylandt** and G. I. Allen. "[Debiasing Projections for Fair Principal Components Analysis](publications/fair_pca.html)"
+
+- M. Navarro, G. I. Allen, and **M. Weylandt**. "Network Clustering for Latent State and Changepoint Detection." 
+
+- **M. Weylandt**, Y. Han, and K. B. Ensor. "Multivariate Modeling of Natural Gas Spot Trading Hubs Incorporating Futures Market Realized Volatility"
+
+  Winner of the *ASA Section on Business and Economic Statistics (B&E) 2020 Student Paper Competition*
+  
+- A.P. Drager, **M. Weylandt**, G. Chuyong, D. Kenfack, D.W. Thomas, and A.E. Dunham. "Ecological correlates of reproductive status in a guild of Afrotropical understory trees."
