@@ -31,7 +31,7 @@ Interestingly, all these forms of orthogonality tend to give improved performanc
 
 ![Comparison of Multi-Rank SFPCA with Traditional SVD PCA](../assets/mrsfpca/simulation.png)
 
-**Related Software:** [*MoMA*](software/moma.html)
+**Related Software:** [*MoMA*](../software/moma.html)
 
 
 <hr>

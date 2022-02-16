@@ -39,7 +39,7 @@ The ArXiv-only appendices of this paper have quite a lot of useful content, incl
 ![Recovering space-time localized left and right singular vectors with SFPCA](../assets/sfpca/sfpca_sim2.png)
 
 
-**Related Software:** [*MoMA*](software/moma.html)
+**Related Software:** [*MoMA*](../software/moma.html)
 
 <hr>
 

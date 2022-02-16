@@ -1,0 +1,27 @@
+#!/usr/bin/Rscript
+library(rmarkdown)
+library(distill)
+for(f in list.files('publications', pattern = "Rmd")){
+    file.copy(paste0("publications/", f), paste0("./publication_", f))
+}
+rmarkdown::render_site()
+for(f in list.files('publications', pattern = "Rmd")){
+    f_html <- gsub("Rmd", "html", f)
+    f_Rmd_src  <- file.path("docs", paste0("publication_", f))
+    f_html_src <- file.path("docs", paste0("publication_", f_html))
+    f_html_dst <- file.path("docs", "publications", f_html)
+
+    f_content <- readLines(f_html_src)
+    f_content <- gsub("./", "../", f_content, fixed = TRUE)
+    f_content <- gsub(".../", "../", f_content, fixed = TRUE)
+    f_content <- gsub("site_libs", "../site_libs", f_content)
+
+    writeLines(f_content, con = f_html_dst)
+
+    unlink(f_html_src)
+    unlink(f_Rmd_src)
+    unlink(f)
+}
+unlink(list.files("docs", pattern = "Rmd", recursive = TRUE, full.names = TRUE))
+unlink(list.files(pattern = "publication_"))
+system("git add *")

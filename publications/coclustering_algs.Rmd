@@ -38,9 +38,9 @@ This method has slightly worse *per iteration* performance, but has superior wal
 
 ![Wall Clock Performance](../assets/coclustering_algs/elapsed.png)
 
-The generalized ADMM is used internally in my [**clustRviz**](software/clustRviz.html) software for both the exact solver and the **CBASS** pathwise algorithm.
+The generalized ADMM is used internally in my [**clustRviz**](../software/clustRviz.html) software for both the exact solver and the **CBASS** pathwise algorithm.
 
-**Related Software:** [*clustRviz*](software/clustrviz.html)
+**Related Software:** [*clustRviz*](../software/clustrviz.html)
 
 <hr>
 

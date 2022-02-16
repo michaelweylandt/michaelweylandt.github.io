@@ -2,19 +2,19 @@ name: "website"
 title: "Michael Weylandt"
 description: |
   Michael Weylandt's Research Website: Subscribe for Notifications of New publications
-base_url: "https://michaelweylandt.github.io"
+base_url: "https://michaelweylandt.github.io/"
 output_dir: "docs"
+exclude: ["build_site"]
 navbar:
   right:
     - text: "Home"
-      href: index.html
+      href: "./index.html"
     - text: "Publications"
-      href: publications.html
+      href: "./publications.html"
     - text: "Software"
-      href: software.html
+      href: "./software.html"
     - text: "About"
-      href: about.html
+      href: "./about.html"
     - text: "Contact"
-      href: contact.html
+      href: "./contact.html"
 output: distill::distill_article
-
