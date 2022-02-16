@@ -16,10 +16,12 @@ Conclusions: HepatoScore-14 augments existing HCC staging systems, dramatically 
 
 **PubMed:** [32931023](https://pubmed.ncbi.nlm.nih.gov/32931023/)
 
+<hr>
+
 **Citation:**
 
 ```
-@ARTICLE{Moarris:2021,
+@ARTICLE{Morris:2021,
   AUTHOR="J.S. Morris and M.M. Hassan and Y.E. Zohner and Z. Wang and L. Xiao and A. Rashid and A. Haque and R. Abdel-Wahad and Y.A. Mohamed and K.L. Ballard and R.A. Wolff and B. George and L. Li and G.I. Allen and M. Weylandt and D. Li and W. Wang and K. Raghav and J. Yao and H.M. Amin and A.O. Kaseb",
   TITLE="HepatoScore14: Measures of biological heterogeneity significantly improve prediction of hepatocellular carcinoma risk",
   JOURNAL="Hepatology",

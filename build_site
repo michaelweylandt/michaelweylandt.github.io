@@ -24,4 +24,12 @@ for(f in list.files('publications', pattern = "Rmd")){
 }
 unlink(list.files("docs", pattern = "Rmd", recursive = TRUE, full.names = TRUE))
 unlink(list.files(pattern = "publication_"))
+
+search_content <- readLines("docs/search.json")
+search_content <- gsub("publication_", "publications/", search_content)
+writeLines(search_content, "docs/search.json")
+
+sitemap_content <- readLines("docs/sitemap.xml")
+sitemap_content <- gsub("publication_", "publications/", sitemap_content)
+writeLines(sitemap_content, "docs/sitemap.xml")
 system("git add *")

@@ -16,15 +16,15 @@ Below is a list of my publications: for more details on each publication, click 
 
   Winner of the *ASA Section on Business and Economic Statistics (B&E) 2020 Student Paper Competition*
   
-- A.P. Drager, **M. Weylandt**, G. Chuyong, D. Kenfack, D.W. Thomas, and A.E. Dunham. "Ecological correlates of reproductive status in a guild of Afrotropical understory trees."
+- A.P. Drager, **M. Weylandt**, G. Chuyong, D. Kenfack, D.W. Thomas, and A.E. Dunham. "[Ecological correlates of reproductive status in a guild of Afrotropical understory trees](publications/tree_reproduction.html)."
 
 ## Published
 
-- **M. Weylandt**, G. Michailidis, and T. M. Roddenberry. "Sparse Partial Least Squares for Coarse Noisy Graph Alignment." *SSP 2021: Proceedings of the 2021 IEEE Statistical Signal Processing Workshop 2021*, pp.561-565. 2021.
+- **M. Weylandt**, G. Michailidis, and T. M. Roddenberry. "[Sparse Partial Least Squares for Coarse Noisy Graph Alignment](publications/conga.html)." *SSP 2021: Proceedings of the 2021 IEEE Statistical Signal Processing Workshop 2021*, pp.561-565. 2021.
 
-- **M. Weylandt**, T.M. Roddenberry, and G. I. Allen. "Simultaneous Grouping and Denoising via Sparse Convex Wavelet Clustering." *DSLW 2021: Proceedings of the IEEE Data Science and Learning Workshop 2021*. pp.1-8. 2021.
+- **M. Weylandt**, T.M. Roddenberry, and G. I. Allen. "[Simultaneous Grouping and Denoising via Sparse Convex Wavelet Clustering](publications/convex_wavelet_clustering.html)." *DSLW 2021: Proceedings of the IEEE Data Science and Learning Workshop 2021*. pp.1-8. 2021.
 
-- **M. Weylandt** and G. Michailidis. "Automatic Registration and Convex Clustering of Time Series." *ICASSP 2021: Proceedings of the 2021 IEEE International Conference on Acoustics, Speech and Signal Processing*, pp.5609-5613. 2021.
+- **M. Weylandt** and G. Michailidis. "[Automatic Registration and Convex Clustering of Time Series](publications/trout.html)." *ICASSP 2021: Proceedings of the 2021 IEEE International Conference on Acoustics, Speech and Signal Processing*, pp.5609-5613. 2021.
 
 - J.S. Morris, M.M. Hassan, Y.E. Zohner, Z. Wang, L. Xiao, A. Rashid, A. Haque, R. Abdel-Wahad, Y.A. Mohamed, K.L. Ballard, R.A. Wolff, B. George, L. Li, G. I. Allen, **M. Weylandt**, D. Li, W. Wang, K. Raghav, J. Yao, H.M. Amin, and A.O. Kaseb. "[HepatoScore‐14: Measures of biological heterogeneity significantly improve prediction of hepatocellular carcinoma risk](publications/hepatoscore14.html)." *Hepatology* 73(6), pp. 2278-2292. 2021. 
     

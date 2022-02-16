@@ -56,7 +56,7 @@ The generalized ADMM is used internally in my [**clustRviz**](../software/clustR
 }
 
 @PROCEEDINGS{DSW:2019,
-  TITLE="{DSW} 2019: Proceedings of the 2\textsuperscript{nd} {IEEE} Data Science Workshop",
+  BOOKTITLE="{DSW} 2019: Proceedings of the 2\textsuperscript{nd} {IEEE} Data Science Workshop",
   YEAR=2019,
   EDITOR="George Karypis and George Michailidis and Rebecca Willett",
   PUBLISHER="{IEEE}",
