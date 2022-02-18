@@ -1,5 +1,22 @@
 ---
-title: "Michael Weylandt"
-site: distill::distill_website
-listing: posts
+title: "Software Packages"
 ---
+
+Software development is a key component of my research agenda. In developing software implementing statistical methodology, I aim to provide reasonable theoretically well-justified defaults and elegant APIs that encourage statistical best practices. Most of my work can be found on my [personal GitHub page](https://github.com/michaelweylandt) or under the [DataSlingers](https://github.com/DataSlingers) organization. Key packages are listed below:
+
+## Stable
+
+- [**ClustRViz**: *Interactive Visualizations and Fast Computation for Convex Clustering*](software/clustRviz.html). 
+
+- [**ExclusiveLasso**: *Generalized Linear Models with the Exclusive Lasso Penalty*](software/exlasso.html)
+
+- [**xtsPlots**: *Additional Plotting Tools for xts Objects*](software/xtsplots.html)
+
+## Under Development
+
+- [**BayesHMM**: *Frequentist and Bayesian Inference for Hierarchical Hidden Markov Models Using Stan*](software/bayeshmm.html)
+
+- [**MoMA**: *Modern Multivariate Analysis - PCA, PLS, CCA, and LDA with Sparsity, Smoothness, and Structure*](software/MoMA.html)
+
+- [**sgdnet**: *Sparse Linear Models for Big Data via Stochastic Average Gradient*](software/sgdnet.html)
+

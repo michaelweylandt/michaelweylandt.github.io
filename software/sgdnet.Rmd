@@ -1,0 +1,22 @@
+---
+title: "sgdnet"
+description: "*Sparse Linear Models for Big Data via Stochastic Average Gradient*"
+author:
+  - name: Johan Larsson
+    url: https://larssonjohan.com/
+    affiliation: Department of Statistics, Lund University
+  - name: Toby Dylan Hocking
+    url: https://tdhock.github.io/
+    affiliation: Northern Arizona University
+  - name: Michael Weylandt
+    url: https://michaelweylandt.github.io
+    affiliation: Department of Statistics, Rice University
+output: distill::distill_article
+---
+
+The **sgdnet** **R** package implements a stochastic gradient method for elastic-net penalized generalized linear models. The package is stable and correct, but performance is not quite what we hoped to attain. Researchers seeking to implement stochastic gradient methods for regularized linear models are advised to take advantage of modern deep learning frameworks and massively parallel computational hardware instead.
+
+**Direct Link:** https://github.com/jolars/sgdnet
+
+**Package Documentation:** http://jolars.github.io/sgdnet/
+

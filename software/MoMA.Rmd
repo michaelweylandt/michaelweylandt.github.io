@@ -1,0 +1,24 @@
+---
+title: "MoMA"
+description: "*Modern Multivariate Analysis - PCA, PLS, CCA, and LDA with Sparsity, Smoothness, and Structure*"
+author:
+  - name: Michael Weylandt
+    url: https://michaelweylandt.github.io
+    affiliation: Department of Statistics, Rice University
+  - name: Genevera I. Allen
+    url: https://genevera.rice.edu
+    affiliation: Departments of Electrical & Computer Engineering, Statistics, and Computer Science, Rice University
+  - name: Luofeng Liao
+output: distill::distill_article
+---
+
+The **MoMA** **R** package implements the Sparse and Functional PCA (SFPCA) framework, as well as its extensions to CCA, PLS, and Linear Discriminant Analysis. In addition to standard sparse (Lasso) penalization, the package also allows for the group lasso, the fused lasso, convex clustering, SCAD, MCP, and SLOPE penalization of both the left and right singular vectors.
+
+The core numerical routines of this package are stable, but the user interface and tuning parameter selection routines are still a work in progress. If you are interested in collaborating on further development of this package, please [get in touch](../contact.html).
+
+**Direct Link:** http://github.com/DataSlingers/MoMA
+
+**Package Documentation:** https://DataSlingers.github.io/MoMA/
+
+**Related Publications:** [Sparse and Functional PCA](../publications/sfpca.html), [Multi-Rank SFPCA](../publications/mrsfpca.html), [Coarse Noisy Graph Alignment](../publications/conga.html)
+

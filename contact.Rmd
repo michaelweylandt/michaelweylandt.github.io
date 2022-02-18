@@ -3,4 +3,4 @@ title: "Contact Information"
 site: distill::distill_website
 ---
 
-Like most folks, I continue to work remotely most days. If you want to get in touch, please email me at [michael.weylandt@ufl.edu](mailto:michael.weylandt@ufl.edu) or give me a call at 713-204-9366.
+Like many folks, I continue to work remotely most days. If you want to get in touch, please email me at [michael.weylandt@ufl.edu](mailto:michael.weylandt@ufl.edu) or give me a call at 713-204-9366.

@@ -2106,7 +2106,61 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <p><strong>PubMed:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/32982130/">32982130</a></p>
 <p><strong>Working Copy:</strong> ArXiv <a href="https://arxiv.org/abs/1901.01477">1901.01477</a></p>
 <hr>
-<p><strong>Summary:</strong></p>
+<p><strong>Summary:</strong> In this paper, we look at efficient algorithms for the <em>convex clustering</em> problem: <span class="math display">\[\hat{\mathbf{U}}_{\lambda} = \text{arg min}_{\mathbf{U} \in \mathbb{R}^{n \times p}} \frac{1}{2} \|\mathbf{X} - \mathbf{U}\|_F^2 + \lambda \left(\sum_{1 \leq i &lt; j \leq n}  w_{ij} \|\mathbf{U}_{i\cdot} - \mathbf{U}_{j\cdot}\|_q\right)\]</span> Chi and Lange (JCGS, 2015) showed that the ADMM can solve this problem efficiently for fixed <span class="math inline">\(\lambda\)</span>, but how should we think about this problem for multiple values of <span class="math inline">\(\lambda\)</span>? This is a more acute problem than in, <em>e.g.</em>, sparse regression, because we need a large set of <span class="math inline">\(\lambda\)</span> values to construct a dendrogram representation of our data and the correct values of <span class="math inline">\(\lambda\)</span> are not known <em>a priori</em>. To make convex clustering practical, we need an algorithm to solve for a very fine grid of <span class="math inline">\(\lambda\)</span> values quickly: thankfully, we do not actually need highly accurate solutions as we are more interested in <em>which</em> points get clustered than in the (biased) cluster centroid estimates.</p>
+<figure>
+<img src="../assets/clustRviz/carp_path_full.png" alt="Convex Clustering Solution Paths" /><figcaption>Convex Clustering Solution Paths</figcaption>
+</figure>
+<p>To solve this problem, we propose a new form of <strong>extreme warm-start early-stopping</strong> that we call <em>algorithmic regularization.</em> By only increasing <span class="math inline">\(\lambda\)</span> by a small amount (to obtain a fine grid), warm-start techniques are sufficient to ensure that a <em>single</em> ADMM step gets a “good enough” solution. We term this approach <strong>CARP</strong> - <strong>Clustering via Algorithmic Regularization Paths</strong></p>
+<ul>
+<li>Input:
+<ul>
+<li>Data matrix: <span class="math inline">\(X \in \mathbb{R}^{n \times p}\)</span></li>
+<li>Weighted edge set: <span class="math inline">\(\mathcal{E} = \{(e_l, w_l)\}\)</span></li>
+<li>Relaxation parameter: <span class="math inline">\(\rho \in \mathbb{R}_{&gt; 0}\)</span></li>
+</ul></li>
+<li>Precompute:
+<ul>
+<li>Difference matrix <span class="math inline">\(D \in \mathbb{R}^{|\mathcal{E}| \times n}\)</span></li>
+<li>Cholesky factor <span class="math inline">\(L = \textsf{chol}(I + \rho D^TD) \in \mathbb{R}^{n \times n}\)</span></li>
+</ul></li>
+<li>Initialize:
+<ul>
+<li><span class="math inline">\(U^{(0)} = X\)</span>, <span class="math inline">\(V^{(0)} = DX\)</span>, <span class="math inline">\(Z^{(0)} = V^{(0)}\)</span>, <span class="math inline">\(\gamma^{(1)} = \epsilon\)</span>, <span class="math inline">\(k = 1\)</span></li>
+</ul></li>
+<li>Repeat until <span class="math inline">\(\|V^{(k - 1)}\| = 0\)</span>:
+<ul>
+<li><span class="math inline">\(U^{(k)} = L^{-T}L^{-1}\left[X + \rho D^T(V^{(k - 1)} - Z^{(k - 1)})\right]\)</span></li>
+<li>If <span class="math inline">\(q = 1\)</span>, for all <span class="math inline">\((i, j)\)</span>: <span class="math display">\[V_{ij}^{(k)} = \textsf{SoftThreshold}_{w_i \gamma^{(k)}/ \rho}((DU^{(k)} + Z^{(k - 1)})_{ij})\]</span></li>
+<li>If <span class="math inline">\(q = 2\)</span>, for all <span class="math inline">\(l\)</span>: <span class="math display">\[V^{(k)}_{l\cdot} = \left(1 - \frac{\gamma^{(k)} w_l}{\rho\|(DU^{(k)} + Z^{(k - 1)})_{l\cdot}\|_2}\right)_+(DU^{(k)} + Z^{(k - 1)})_{l\cdot}\]</span></li>
+<li><span class="math inline">\(Z^{(k)} = Z^{(k - 1)} + DU^{(k)} - V^{(k)}\)</span></li>
+<li><span class="math inline">\(\gamma^{(k + 1)} = t \gamma^{(k)}\)</span></li>
+<li><span class="math inline">\(k := k + 1\)</span></li>
+</ul></li>
+<li>Return <span class="math inline">\(\{(U^{(l)}, V^{(l)}\}_{l = 0}^{k - 1}\)</span></li>
+</ul>
+<p>We rigorously justify our approach by showing convergence of the CARP path and the true solution set in the Hausdorff metric: <span class="math display">\[\begin{align*}
+d_H(\{\mathbf{U}^{(k)}\}, \{\hat{\mathbf{U}}_{\lambda}\}) \equiv \max\left\{\sup_{\lambda} \inf_k \left\|\mathbf{U}^{(k)} - \hat{\mathbf{U}}_{\lambda}\right\|, \sup_{k} \inf_\lambda \left\|\mathbf{U}^{(k)} - \hat{\mathbf{U}}_{\lambda}\right\|\right\}  \xrightarrow{(t, \epsilon) \to (1, 0)} 0\\
+d_H(\{\mathbf{Z}^{(k)}\}, \{\hat{\mathbf{Z}}_{\lambda}\}) \equiv \max\left\{\sup_{\lambda} \inf_k \left\|\mathbf{Z}^{(k)} - \hat{\mathbf{Z}}_{\lambda}\right\|, \sup_{k} \inf_\lambda \left\|\mathbf{Z}^{(k)} - \hat{\mathbf{Z}}_{\lambda}\right\|\right\} \xrightarrow{(t, \epsilon) \to (1, 0)} 0
+\end{align*}\]</span> This can be summarized as CARP finding “the whole path and nothing but the path.”</p>
+<figure>
+<img src="../assets/clustRviz/hd_tcga_authors.png" alt="Hausdorff Convergence of CARP Algorithm" /><figcaption>Hausdorff Convergence of CARP Algorithm</figcaption>
+</figure>
+<p>Experimentally, we find that only moderately small step sizes are necessary to accurately estimate the dendrogram structure of the data. We extend this approach to Convex Bi-Clustering as well, giving the <strong>CBASS</strong> algorithm, which is a tortured acronym for <strong>Convex Bi-Clustering via Algorithmic Regularization with Small Steps.</strong> The version of <strong>CBASS</strong> in the paper does not guarantee Hausdorff convergence, but the modified version currently in the <strong>clustRviz</strong> <strong>R</strong> package does.</p>
+<p>Our theoretical analysis uses simple ingredients to show Hausdorff convergence:</p>
+<ul>
+<li>Geometric convergence of the ADMM (here implied by strong convexity, but this can often be relaxed)</li>
+<li>Lipschitz continuity of the solution path</li>
+<li>A compact set of non-trivial <span class="math inline">\(\lambda\)</span> values</li>
+</ul>
+<p>Combining these in a “daisy-chaining” analysis (and several pages of inequalities) gives Hausdorff convergence. We believe this is a viable strategy for a wide range of statistical learning problems for which the “shape” of the solutions is more interesting than obtaining a single high-precision estimate.</p>
+<p>We implement these algorithms in our <strong>clustRviz</strong> <strong>R</strong> package which is the fastest “whole path” solver available for the convex clustering. Later work has proposed better base algorithms than the ADMM and it would be interesting to use the Algorithmic Regularization strategy to boost these into “whole path” solvers.</p>
+<figure>
+<img src="../assets/clustRviz/timing_tcga_authors.png" alt="Timing Comparisons" /><figcaption>Timing Comparisons</figcaption>
+</figure>
+<p><strong>Presentations:</strong> I was invited to give a talk on my convex clustering work at the Lund University Statistical Learning Seminar, which can be viewed below:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dp7_I4s0S_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<p><a href="https://www.youtube.com/watch?v=Dp7_I4s0S_s">Direct YouTube Link</a>. Slides from a more focused talk on the <strong>CARP</strong> and <strong>CBASS</strong> algorithms can be found <a href="../assets/clustRviz/slides.pdf">here</a>.</p>
 <p><strong>Related Software:</strong> The clustering methodology from this paper is implemented in my <strong>R</strong> package <a href="../software/clustRviz.html"><strong>clustRviz</strong></a>. The algorithmic regularization scheme from this paper was applied to the Generalized ADMM from my paper on <a href="coclustering_algs.html">co-clustering algorithms</a> to give the improved <strong>CBASS</strong> algorithm in the package.</p>
 <hr>
 <p><strong>Citation:</strong></p>
@@ -2128,6 +2182,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="d-appendix">
 </div>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->

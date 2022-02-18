@@ -1,0 +1,14 @@
+---
+title: "xtsPlots"
+description: "*Additional Plotting Tools for xts Objects*"
+author:
+  - name: Michael Weylandt
+    url: https://michaelweylandt.github.io
+    affiliation: Department of Statistics, Rice University
+output: distill::distill_article
+---
+
+The **xtsPlots** **R** package implements an alternative framework for plotting time series in **R**. The package was originally developed in 2012 and pre-dates the rise of modern plotting toolkits in **R**. While the package is still usable, it is no longer actively developed and the ideas in it have been superseded by a newer plotting engine in the **xts** package. 
+
+**Direct Link:** https://github.com/michaelweylandt/xtsPlots
+

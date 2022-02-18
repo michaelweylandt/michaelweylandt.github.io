@@ -1,0 +1,41 @@
+---
+title: "A Tutorial on Hidden Markov Models using Stan"
+description: "*StanCon 2018*"
+author:
+  - name: Luis Damiano
+    url: https://luisdamiano.github.io/
+    affiliation: Universidad Nacional de Rosario
+  - name: Brian Peterson
+    url: http://braverock.com/brian/
+    affiliation: University of Washington
+  - name: Michael Weylandt
+    url: https://michaelweylandt.github.io
+    affiliation: Department of Statistics, Rice University
+output: distill::distill_article
+---
+
+**Abstract:** We implement a standard Hidden Markov Model (HMM) and the Input-Output Hidden Markov Model for unsupervised learning of time series dynamics in Stan. We begin by reviewing three commonly-used algorithms for inference and parameter estimation, as well as a number of computational techniques and modeling strategies that make full Bayesian inference practical. For both models, we demonstrate the effectiveness of our proposed approach in simulations. Finally, we give an example of embedding a HMM within a larger model using an example from the econometrics literature.
+
+**Publisher's DOI:** 10.5281/zenodo.1284341
+
+<hr>
+
+**Summary:** This work motivates and demonstrates the use of Bayesian inference for Hidden Markov Models, with a eye towards their use in the probabilistic programming framework [Stan](https://mc-stan.org/). We give examples of both classical HMMs as well as several more advanced variants. The work in this talk has largely been superseded by advances in **Stan** itself, including an built-in HMM framework in **Stan**, version 2.24: new work should proceed from the material in official **Stan** documentation or from the semi-official [user-contributed tutorial](https://github.com/stan-dev/example-models/blob/71e3dee590632e615b17b935652c68b69df6df6f/knitr/hmm-example/hmm-example.Rmd).
+
+<hr>
+
+**Citation:**
+
+```
+@INPROCEEDINGS{Damiano:2018, 
+  AUTHOR="Luis Damiano and Brian Peterson and Michael Weylandt",
+  TITLE="A Tutorial on Hidden {M}arkov Models Using {S}tan"
+  DOI="10.5281/zenodo.1284341",
+  CROSSREF={StanCon:2018}
+}
+
+@PROCEEDINGS{StanCon:2018,
+  LOCATION="Asilomar, CA",
+  BOOKTITLE="StanCon 2018: Proceedings of the 2018 Stan Users' Conference", 
+  URL="https://mc-stan.org/events/stancon2018/"
+}

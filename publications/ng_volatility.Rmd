@@ -1,27 +1,28 @@
 ---
-title: "Untitled"
-description: |
-  A new article created using the Distill format.
+title: "Multivariate Modeling of Natural Gas Spot Trading Hubs Incorporating Futures Market Realized Volatility"
+description: "Submitted Journal Paper"
 author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
-date: "`r Sys.Date()`"
-output: 
-  distill::distill_article:
-    self_contained: true
+  - name: Michael Weylandt
+    url: https://michaelweylandt.github.io
+    affiliation: Department of Statistics, Rice University
+  - name: Yu Han
+    affiliation: Department of Statistics, Rice University
+  - name: Katherine B. Ensor
+    url: https://ensor.rice.edu/
+    affiliation: Department of Statistics, Rice University
+output: distill::distill_article
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+Winner of the *ASA Section on Business and Economic Statistics (B&E) 2020 Student Paper Competition*
 
-Distill is a publication format for scientific and technical writing, native to the web. 
+**Abstract:** Financial markets for natural gas are an important and rapidly-growing segment of commodities markets. Like other commodities markets, there is an inherent spatial structure to natural gas markets, with different price dynamics for different points of delivery hubs. Certain hubs support highly liquid markets, allowing efficient and robust price discovery, while others are highly illiquid, limiting the effectiveness of standard risk management techniques. We propose a joint modeling strategy, which uses high-frequency information from thickly-traded hubs to improve volatility estimation and risk management at thinly-traded hubs. The resulting model has superior in- and out-of-sample predictive performance, particularly for several commonly used risk management metrics, demonstrating that joint modeling is indeed possible and useful. To improve estimation, a Bayesian estimation strategy is employed and data-driven weakly informative priors are suggested. Our model is robust to sparse data and can be effectively used in any market with similar irregular patterns of data availability.
 
-Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
+**Working Copy:** ArXiv [1907.10152](https://arxiv.org/abs/1907.10152)
 
+<hr>
 
+**Summary:** In this work, we built a new model for risk management (volatility forecasting) of US Natural Gas markets. These markets are interesting in that they combine a overall "market" effect with location-specific volatility. We adapt the "Realized Beta GARCH" model of Hansen, Lunde, and Voev (J. Applied Econometrics, 2014) to this problem, combining high-frequency data from NYSE futures markets with daily data from geographically diverse spot markets. We give a Bayesian analysis of this problem, developing realistic priors, thoroughtly evaluating MCMC sampler performance, and rigorously validating the out-of-sample forecast accuracy of our approach. The specific findings of our analysis are less of interest - and likely to be out of date anyways - but the analytical framework and evaluation methodology are rigorous and can be easily applied to other risk management problems.
 
+![WAIC Evaluation with Outlier Detection](../assets/ng_volatility/waic_with_stability.png)
 
-
+![Out-of-Sample Volatility Forecast Validation](../assets/ng_volatility/out_of_sample_kupiec.png)
