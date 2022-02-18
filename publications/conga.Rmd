@@ -7,7 +7,7 @@ author:
     affiliation: UF Informatics Insitute
   - name: George Michailidis
     affiliation: Department of Statistics and Informatics Institute, University of Florida
-  - name: Thomas M. ("Mitch") Roddenberry
+  - name: T. Mitchell Roddenberry
     url: https://www.roddenberry.xyz/
     affiliation: Department of Electrical & Computer Engineering, Rice University
 output: distill::distill_article
@@ -53,7 +53,7 @@ The resulting estimator is computationally efficient and performs well in simula
 
 ```
 @INPROCEEDINGS{Weylandt:2021-CONGA,
-  AUTHOR="Michael Weylandt and George Michailidis and Thomas M. Roddenberry",
+  AUTHOR="Michael Weylandt and George Michailidis and T. Mitchell Roddenberry",
   TITLE="Sparse Partial Least Squares for Coarse Noisy Graph Alignment",
   DOI="10.1109/SSP49050.2021.9513753"
   PAGES={561-565},

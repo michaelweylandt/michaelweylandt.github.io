@@ -5,7 +5,7 @@ author:
   - name: Michael Weylandt
     url: https://michaelweylandt.github.io
     affiliation: UF Informatics Insitute
-  - name: Thomas M. ("Mitch") Roddenberry
+  - name: T. Mitchell Roddenberry
     url: https://www.roddenberry.xyz/
     affiliation: Department of Electrical & Computer Engineering, Rice University
   - name: Genevera I. Allen
@@ -39,7 +39,7 @@ If $\Psi$ represents a full-rank wavelet basis, this reduces to the sparse conve
 
 ```
 @INPROCEEDINGS{Weylandt:2021-ConvexWaveletClustering,
-  AUTHOR="Michael Weylandt and Thomas M. Roddenberry and Genevera I. Allen",
+  AUTHOR="Michael Weylandt and T. Mitchell Roddenberry and Genevera I. Allen",
   TITLE="Simultaneous Grouping and Denoising via Sparse Convex Wavelet Clustering",
   DOI="10.1109/DSLW51110.2021.9523413"
   PAGES={1-8},

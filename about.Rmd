@@ -11,10 +11,8 @@ the American Statistical Association in both Statistical Learning and
 Data Science and in Business & Economic Statistics. He has served as a
 mentor in the Google Summer of Code program for 7 years on behalf of
 the R Foundation for Statistical Computing and previously held an NSF
-Graduate Research Fellowship. Prior to beginning his Ph.D. studies, he
-worked at Morgan Stanley as a quantitative analyst, focusing on
-derivatives pricing and financial risk management. He received a
-Bachelor's of Science in Engineering from Princeton University in 2008
-and a Ph.D. in Statistics from Rice University in 2020. 
+Graduate Research Fellowship. He received a Bachelor's of Science in Engineering
+from Princeton University in 2008 and a Ph.D. in Statistics from Rice University
+in 2020, where he was supervised by Katherine B. Ensor.
 
 For more details, see my [Full CV](assets/Weylandt_CV.pdf).
