@@ -1,0 +1,77 @@
+---
+title: "To the Fairness Frontier and Beyond: Identifying, Quantifying, and Optimizing the Fairness-Accuracy Pareto Frontier"
+description: "Submitted article (under review)"
+author:
+  - name: Camille Olivia Little†
+    affiliation: Department of Electrical & Computer Engineering, Rice University
+  - name: Michael Weylandt†
+    url: https://michaelweylandt.github.io
+    affiliation: UF Informatics Insitute
+  - name: Genevera I. Allen
+    url: https://genevera.rice.edu
+    affiliation: Departments of Electrical & Computer Engineering, Statistics, and Computer Science, Rice University
+output: distill::distill_article
+---
+
+**Abstract:** Algorithmic fairness has emerged as an important consideration when developing and deploying machine learning models to make high-stakes societal decisions. Yet, improved fairness often comes at the expense of model accuracy. While aspects of the fairness-accuracy tradeoff have been studied, most work reports the fairness and accuracy of various models separately; this makes model comparisons nearly impossible without a unified model-agnostic metric that reflects the Pareto optimal balance of the two desiderata. In this paper, we seek to identify, quantify, and optimize the empirical Pareto frontier of the fairness-accuracy tradeoff, defined as the highest attained accuracy at every level of fairness for a collection of fitted models. Specifically, we identify and outline the empirical Pareto frontier through our Tradeoff-between-Fairness-and-Accuracy (TAF) Curves; we then develop a single metric to quantify this Pareto frontier through the weighted area under the TAF Curve which we term the Fairness-Area-Under-the-Curve (FAUC). Our TAF Curves provide the first empirical, model-agnostic characterization of the Pareto frontier, while our FAUC provides the first unified metric to impartially compare model families in terms of both fairness and accuracy. Both TAF Curves and FAUC are general and can be employed with all group fairness definitions and accuracy measures. Next, we ask: Is it possible to expand the empirical Pareto frontier and thus improve the FAUC for a given collection of fitted models? We answer in the affirmative by developing a novel fair model stacking framework, FairStacks. FairStacks solves a convex program to maximize the accuracy of a linear combination of fitted models subject to a constraint on score-based model bias. We show that optimizing with FairStacks always expands the empirical Pareto frontier and improves the FAUC; we additionally study other theoretical properties of our proposed approach. Finally, we empirically validate TAF, FAUC, and FairStacks through studies on several real benchmark data sets, showing that FairStacks leads to major improvements in FAUC that outperform existing algorithmic fairness approaches.
+
+**Working Copy:** ArXiv [2206.00074](https://arxiv.org/abs/2206.00074)
+
+†These authors contributed equally.
+
+<hr>
+
+**Summary:** Given recent interest in questions of ML/Algorithmic fairness, we pause
+to ask how best to compare fair ML models. Specifically, while it is easy to compare
+models on fairness or accuracy, it is less obvious how to compare them on both axes.
+The difficulty of this question is compounded by the fact that many of these models
+have a "trade-off" parameter that allows the analyst to balance fairness and (overall)
+accuracy in a problem-specific way. We take inspiration from the economic / multi-objective optimization
+literature and consider the Pareto frontier attainable by a model (possibly as the tradeoff 
+parameter is varied). We give an efficient algorithm for finding this Pareto frontier
+(TAF) and show that an AUC-type measure (FAUC) can be used to compare fair ML models
+under any utility function. A significant advantage of our framework is that it
+is model- and definition-agnostic, so it is possible to give an unbiased comparison
+of models which are trained under different loss functions or constraints. Having
+developed the TAF/FAUC framework, we next apply it to a fair model stacking
+framework (FairStacks) and show that ensembling can always improve the
+fairness/accuracy tradeoff of any set of models. The stacking context is particularly
+useful for fair ML as it allows the analyst to use powerful and potentially pre-trained
+base learners while still achieving fairness goals.
+
+![Comparison of Fair ML Techniques Using TAF/FAUC Framework](../assets/fairstacks/fauccurves.png)
+
+While the main contributions of the paper are the preference-theoretic analysis of the
+model evaluation question and the FairStacks meta-learner, I think this paper has several other
+useful theoretical contributions which are worth future study: 
+
+1. We give sufficient conditions under which convex (score-based) fairness constraints
+   translate to decision fairness, which is typically what is actually used in practice.
+2. We connect fairness and model combinations with randomization and convex combinations
+   of statistical testing procedures. These latter literatures are rich and give a
+   straight-forward (and in many circumstances nearly optimal) way of "fair-ing"
+   an existing base learner. 
+3. We give finite-sample distribution free guarantees on the out-of-sample accuracy
+   and fairness of our method. These results are pretty standard applications of VC/PAC
+   theory, but we expect they may be useful in audit studies of fairness as well.
+
+![Summary of TAF/FAUC Framework and FairStacks Meta-Learner](../assets/fairstacks/theory.png)
+
+
+Finally, while our focus was on model evaluation and comparison, we also note that
+our framework can be used for data comparison, *e.g.*, to compare the fairness of data
+collected before and after some real-world policy intervention.
+
+<hr>
+
+**Citation:**
+
+```
+@ARTICLE{Little:2022,
+  AUTHOR="Camille Olivia Little and Michael Weylandt and Genevera I. Allen",
+  TITLE="To the Fairness Frontier and Beyond: Identifying, Quantifying, and Optimizing the Fairness-Accuracy Pareto Frontier",
+  YEAR=2022,
+  JOURNAL="ArXiv Pre-Print 2206.00074"
+  DOI="10.48550/arXiv.2206.00074"
+}
+```
