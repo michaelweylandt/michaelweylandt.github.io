@@ -10,13 +10,11 @@ Below is a list of my publications: click through the linked title for more deta
 
 - **M. Weylandt** and G. Michailidis. "[Coupled CP Decomposition for Principal Components Analysis of Symmetric Networks](publications/ccpd.html)". 2022.
 
-- **M. Weylandt** and G. Michailidis. "[Coupled CP Decomposition for Principal Components Analysis of Symmetric Networks](publications/ccpd.html)". 2022.
-
 - **M. Weylandt** and G. I. Allen. "[Debiasing Projections for Fair Principal Components Analysis](publications/fair_pca.html)". 2021.
 
 - M. Navarro, G. I. Allen, and **M. Weylandt**. "[Network Clustering for Latent State and Changepoint Detection](publications/network_convex_clustering.html)". 2021.
 
-- **M. Weylandt**, Y. Han, and K. B. Ensor. "[Multivariate Modeling of Natural Gas Spot Trading Hubs Incorporating Futures Market Realized Volatility](publications/ng_paper.html)". 2019.
+- **M. Weylandt**, Y. Han, and K. B. Ensor. "[Multivariate Modeling of Natural Gas Spot Trading Hubs Incorporating Futures Market Realized Volatility](publications/ng_volatility.html)". 2019.
 
   Winner of the *ASA Section on Business and Economic Statistics (B&E) 2020 Student Paper Competition*
   
