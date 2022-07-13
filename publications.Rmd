@@ -2,7 +2,7 @@
 title: "Publications"
 ---
 
-Below is a list of my publications: click through the linked title for more details. 
+Below is a list of my publications: click through the linked title for more details.
 
 ## Submitted 
 
@@ -17,7 +17,7 @@ Below is a list of my publications: click through the linked title for more deta
 - **M. Weylandt**, Y. Han, and K. B. Ensor. "[Multivariate Modeling of Natural Gas Spot Trading Hubs Incorporating Futures Market Realized Volatility](publications/ng_volatility.html)". 2019.
 
   Winner of the *ASA Section on Business and Economic Statistics (B&E) 2020 Student Paper Competition*
-  
+
 - A.P. Drager, **M. Weylandt**, G. Chuyong, D. Kenfack, D.W. Thomas, and A.E. Dunham. "[Ecological correlates of reproductive status in a guild of Afrotropical understory trees](publications/tree_reproduction.html)." 2019.
 
 ## Published
@@ -26,16 +26,15 @@ Below is a list of my publications: click through the linked title for more deta
 
 - **M. Weylandt**, T.M. Roddenberry, and G. I. Allen. "[Simultaneous Grouping and Denoising via Sparse Convex Wavelet Clustering](publications/convex_wavelet_clustering.html)." *DSLW 2021: Proceedings of the IEEE Data Science and Learning Workshop 2021*. pp.1-8. 2021.
 
-- **M. Weylandt** and G. Michailidis. "[Automatic Registration and Convex Clustering of Time Series](publications/trout.html)." *ICASSP 2021: Proceedings of the 2021 IEEE International Conference on Acoustics, Speech and Signal Processing*, pp.5609-5613. 2021.
+- **M. Weylandt** and G. Michailidis. "[Automatic Registration and Clustering of Time Series](publications/trout.html)." *ICASSP 2021: Proceedings of the 2021 IEEE International Conference on Acoustics, Speech and Signal Processing*, pp.5609-5613. 2021.
 
 - J.S. Morris, M.M. Hassan, Y.E. Zohner, Z. Wang, L. Xiao, A. Rashid, A. Haque, R. Abdel-Wahad, Y.A. Mohamed, K.L. Ballard, R.A. Wolff, B. George, L. Li, G. I. Allen, **M. Weylandt**, D. Li, W. Wang, K. Raghav, J. Yao, H.M. Amin, and A.O. Kaseb. "[HepatoScore‐14: Measures of biological heterogeneity significantly improve prediction of hepatocellular carcinoma risk](publications/hepatoscore14.html)." *Hepatology* 73(6), pp. 2278-2292. 2021.
-    
 - **M. Weylandt.** "[Multi-Rank Sparse and Functional PCA: Manifold Optimization and Iterative Deflation Techniques](publications/mrsfpca.html)." *CAMSAP 2019: Proceedings of the IEEE 8th International Workshop on Computational Advances in Multi-Sensor Adaptive Processing*, pp.500-504. 2019.
 
 - **M. Weylandt**, J. Nagorski, and G. I. Allen. "[Interactive Visualizations and Fast Computation for Convex Clustering via Algorithmic Regularization](publications/clustRviz.html)." *Journal of Computational and Graphical Statistics* 29(1), pp. 87-96. 2020.
 
     Winner of the *ASA Section on Statistical Learning and Data Science (SLDS) 2019 Student Paper Competition*
-    
+
 - **M. Weylandt**. "[Splitting Methods for Convex Bi-Clustering and Co-Clustering](publications/coclustering_algs.html)." *DSW 2019: Proceedings of the IEEE Data Science Workshop 2019*, pp.237-244. 2019.
 
 - G. I. Allen and **M. Weylandt**. "[Sparse and Functional Principal Components Analysis](publications/sfpca.html)." *DSW 2019: Proceedings of the IEEE Data Science Workshop 2019*, pp.11-16. 2019.
@@ -45,3 +44,7 @@ Below is a list of my publications: click through the linked title for more deta
 - **M. Weylandt.** "[Computational and Statistical Methodology for Highly-Structured Data](publications/thesis.html)." *Ph.D. Thesis, Rice University*. 2020.
 
 - L. Damiano, B. Peterson, and **M. Weylandt**. "[A Tutorial on Hidden Markov Models using Stan](publications/luis.Rmd)." *StanCon 2018*.
+
+<hr>
+
+A BibTeX file for these publications can be found [here](assets/weylandt.bib).
