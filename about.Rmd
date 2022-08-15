@@ -2,11 +2,13 @@
 title: "About Me"
 ---
 
-Michael Weylandt is currently an Intelligence Community
+Michael Weylandt is currently a postdoctoral appointee in the Statistical Sciences
+group at Sandia National Laboratories, where he works with Laura P. Swiler and
+J. Derek Tucker on a variety of projects inspired by applications in national
+security and climate modeling. From October 2020 to September 2022, he was an Intelligence Community
 Postdoctoral Fellow, working with George Michailidis at the University
-of Florida. His work focuses on statistical machine learning theory
-for structured multivariate time series, viewed through a graphical
-model lens. His work has been recognized with best paper awards from
+of Florida, focusing on statistical machine learning theory for structured
+multivariate time series. His work has been recognized with best paper awards from
 the American Statistical Association in both Statistical Learning and
 Data Science and in Business & Economic Statistics. He has served as a
 mentor in the Google Summer of Code program for 7 years on behalf of
