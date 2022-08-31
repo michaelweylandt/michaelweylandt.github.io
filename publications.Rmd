@@ -8,7 +8,8 @@ Below is a list of my publications: click through the linked title for more deta
 
 - C. O. Little†, **M. Weylandt**† and G. I. Allen. "[To the Fairness Frontier and Beyond: Identifying, Quantifying, and Optimizing the Fairness-Accuracy Pareto Frontier](publications/fairstacks.html)". 2022.
 
-- **M. Weylandt** and G. Michailidis. "[Coupled CP Decomposition for Principal Components Analysis of Symmetric Networks](publications/ccpd.html)". 2022.
+- **M. Weylandt** and G. Michailidis. "[Multivariate Analysis for Multiple Network Data via Semi-Symmetric
+  Tensor PCA](publications/sstpca.html)". 2022.
 
 - **M. Weylandt** and G. I. Allen. "[Debiasing Projections for Fair Principal Components Analysis](publications/fair_pca.html)". 2021.
 

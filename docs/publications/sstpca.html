@@ -87,7 +87,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Michael Weylandt: Coupled-CP Decomposition for Principal Components Analysis of Symmetric Networks</title>
+  <title>Michael Weylandt: Multivariate Analysis for Multiple Network Data via Semi-Symmetric Tensor PCA</title>
 
   <meta property="description" itemprop="description" content="Submitted article (under review)"/>
 
@@ -96,7 +96,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <meta name="article:author" content="George Michailidis"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Michael Weylandt: Coupled-CP Decomposition for Principal Components Analysis of Symmetric Networks"/>
+  <meta property="og:title" content="Michael Weylandt: Multivariate Analysis for Multiple Network Data via Semi-Symmetric Tensor PCA"/>
   <meta property="og:type" content="article"/>
   <meta property="og:description" content="Submitted article (under review)"/>
   <meta property="og:locale" content="en_US"/>
@@ -104,14 +104,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Michael Weylandt: Coupled-CP Decomposition for Principal Components Analysis of Symmetric Networks"/>
+  <meta property="twitter:title" content="Michael Weylandt: Multivariate Analysis for Multiple Network Data via Semi-Symmetric Tensor PCA"/>
   <meta property="twitter:description" content="Submitted article (under review)"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","output"]}},"value":[{"type":"character","attributes":{},"value":["Coupled-CP Decomposition for Principal Components Analysis of Symmetric Networks"]},{"type":"character","attributes":{},"value":["Submitted article (under review)"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation"]}},"value":[{"type":"character","attributes":{},"value":["Michael Weylandt"]},{"type":"character","attributes":{},"value":["https://michaelweylandt.github.io"]},{"type":"character","attributes":{},"value":["UF Informatics Insitute"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation"]}},"value":[{"type":"character","attributes":{},"value":["George Michailidis"]},{"type":"character","attributes":{},"value":["Department of Statistics and Informatics Institute, University of Florida"]}]}]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","output"]}},"value":[{"type":"character","attributes":{},"value":["Multivariate Analysis for Multiple Network Data via Semi-Symmetric Tensor PCA"]},{"type":"character","attributes":{},"value":["Submitted article (under review)"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation"]}},"value":[{"type":"character","attributes":{},"value":["Michael Weylandt"]},{"type":"character","attributes":{},"value":["https://michaelweylandt.github.io"]},{"type":"character","attributes":{},"value":["UF Informatics Insitute"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation"]}},"value":[{"type":"character","attributes":{},"value":["George Michailidis"]},{"type":"character","attributes":{},"value":["Department of Statistics and Informatics Institute, University of Florida"]}]}]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2088,7 +2088,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Coupled-CP Decomposition for Principal Components Analysis of Symmetric Networks","description":"Submitted article (under review)","authors":[{"author":"Michael Weylandt","authorURL":"https://michaelweylandt.github.io","affiliation":"UF Informatics Insitute","affiliationURL":"#","orcidID":""},{"author":"George Michailidis","authorURL":"#","affiliation":"Department of Statistics and Informatics Institute, University of Florida","affiliationURL":"#","orcidID":""}]}
+{"title":"Multivariate Analysis for Multiple Network Data via Semi-Symmetric Tensor PCA","description":"Submitted article (under review)","authors":[{"author":"Michael Weylandt","authorURL":"https://michaelweylandt.github.io","affiliation":"UF Informatics Insitute","affiliationURL":"#","orcidID":""},{"author":"George Michailidis","authorURL":"#","affiliation":"Department of Statistics and Informatics Institute, University of Florida","affiliationURL":"#","orcidID":""}]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2114,7 +2114,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Coupled-CP Decomposition for Principal Components Analysis of Symmetric Networks</h1>
+<h1>Multivariate Analysis for Multiple Network Data via Semi-Symmetric Tensor PCA</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 <p>Submitted article (under review)</p>
@@ -2129,18 +2129,19 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 
 <div class="d-article">
-<p><strong>Abstract:</strong> In a number of application domains, one observes a sequence of network data; for example, repeated measurements between users interactions in social media platforms, financial correlation networks over time, or across subjects, as in multi-subject studies of brain connectivity. One way to analyze such data is by stacking networks into a third-order array or tensor. We propose a principal components analysis (PCA) framework for sequence network data, based on a novel decomposition for semi-symmetric tensors. We derive efficient algorithms for computing our proposed “Coupled CP” decomposition and establish estimation consistency of our approach under an analogue of the spiked covariance model with rates the same as the matrix case up to a logarithmic term. Our framework inherits many of the strengths of classical PCA and is suitable for a wide range of unsupervised learning tasks, including identifying principal networks, isolating meaningful changepoints or outliers across observations, and for characterizing the “variability network” of the most varying edges. Finally, we demonstrate the effectiveness of our proposal on simulated data and on examples from political science and financial economics. The proof techniques used to establish our main consistency results are surprisingly straight-forward and may find use in a variety of other matrix and tensor decomposition problems.</p>
+<p><strong>Abstract:</strong> Network data are commonly collected in a variety of applications, representing either directly measured or statistically inferred connections between features of interest. In an increasing number of domains, these networks are collected over time, such as interactions between users of a social media platform on different days, or across multiple subjects, such as in multi-subject studies of brain connectivity. When analyzing multiple large networks, dimensionality reduction techniques are often used to embed networks in a more tractable low-dimensional space. To this end, we develop a framework for principal components analysis (PCA) on collections of networks via a specialized tensor decomposition we term Semi-Symmetric Tensor PCA or SS-TPCA. We derive computationally efficient algorithms for computing our proposed SS-TPCA decomposition and establish statistical efficiency of our approach under a standard low-rank signal plus noise model. Remarkably, we show that SS-TPCA achieves the same estimation accuracy as classical matrix PCA, with error proportional to the square root of the number of vertices in the network and not the number of edges as might be expected. Our framework inherits many of the strengths of classical PCA and is suitable for a wide range of unsupervised learning tasks, including identifying principal networks, isolating meaningful changepoints or outlying observations, and for characterizing the “variability network” of the most varying edges. Finally, we demonstrate the effectiveness of our proposal on simulated data and on an example from empirical legal studies. The techniques used to establish our main consistency results are surprisingly straightforward and may find use in a variety of other network analysis problems.</p>
 <p><strong>Working Copy:</strong> ArXiv <a href="https://arxiv.org/abs/2202.04719">2202.04719</a></p>
 <hr>
 <p><strong>Summary:</strong> We develop and approach for performing Principal Components Analysis (PCA) on <em>network series</em> data - sets of networks observed on the same node set. Network series data are observed when a changing network is observed over time (<em>e.g.</em>, a social media network at the end of each week) or when a statistical network is estimated from time series data (<em>e.g.</em>, stock market correlation networks in different years). We approach this problem by embedding the network series in a <strong>semi-symmetric</strong> tensor and performing tensor PCA on this representation.</p>
 <figure>
-<img src="../assets/ccpd/schematic.png" alt="" /><figcaption>Schematic Diagram of Semi-Symmetric Tensor PCA</figcaption>
+<img src="../assets/sstpca/schematic.png" alt="" /><figcaption>Schematic Diagram of Semi-Symmetric Tensor PCA</figcaption>
 </figure>
 <p>We rigorously analyze Tensor PCA in the semi-symmetric context, proving consistency under an analogue of the “low-rank + noise” model for matrix PCA: somewhat remarkably, despite the difficulty of the tensor setting, our results are within a logarithmic factor of classical PCA results. Our proof technique depends on the classical Davis-Kahan theorem (and some painful algebra) and we hope to apply it further to a variety of tensor decomposition problems. Finally, we apply our method to a variety of synthetic and real data sets and find some counter-intuitive results about the Supreme Court of the United States.</p>
 <figure>
-<img src="../assets/ccpd/scotus.png" alt="" /><figcaption>Tensor PCA applied to SCOTUS Voting Behaviors</figcaption>
+<img src="../assets/sstpca/scotus.png" alt="" /><figcaption>Tensor PCA applied to SCOTUS Voting Behaviors</figcaption>
 </figure>
-<p><strong>Presentations:</strong> I presented this work at the 2022 Conference on New Advances in Statistics and Data Science (NASDS) and won the 2022 NASDS Best Poster Award. That poster can be found <a href="../assets/ccpd/NASDS_poster.pdf">here</a>. Slides from a longer (35-minute) presentation focusing on this work can be found <a href="../assets/ccpd/ccpd_talk.pdf">here</a>.</p>
+<p>An interesting quick of our analysis is that it allows for differing and possibly adversarial noise at each iteration of the tensor power method. While we don’t explore this fully, this has clear implications for both secure and online variants of our approach.</p>
+<p><strong>Presentations:</strong> I presented this work at the 2022 Conference on New Advances in Statistics and Data Science (NASDS) and won the 2022 NASDS Best Poster Award. That poster can be found <a href="../assets/sstpca/NASDS_poster.pdf">here</a>. Slides from a longer (35-minute) presentation focusing on this work can be found <a href="../assets/sstpca/sstpca_talk.pdf">here</a>.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
