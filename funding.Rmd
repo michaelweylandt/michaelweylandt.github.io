@@ -1,0 +1,9 @@
+---
+title: "Research Support and Funding"
+---
+
+My research has been supported by grants and fellowships from the US National Science Foundation (NSF), the US Intelligence Community (US IC), and the Sandia National Laboratories Laboratory Directed Research and Development program (SNL LDRD). 
+
+**Current Funding**
+
+1. SNL LDRD. $40,000. "CLDERA: Climate Attribution through Enhanced Fingerprinting" (PI).^[Subcontract to [CLDERA](https://www.sandia.gov/cldera/); CLDERA PI: D. Bull (SNL).]

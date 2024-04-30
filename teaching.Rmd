@@ -1,0 +1,11 @@
+---
+title: "Teaching"
+---
+
+**At Zicklin School of Business**
+
+1. STA9890: Statistical Learning for Data Mining. (Master's Level)
+
+2. STA9750/OPR9750: Basic Software Tools for Data Analysis. (Master's Level)
+
+3. STA9715: Applied Probability. (Master's Level)

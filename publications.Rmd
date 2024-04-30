@@ -23,6 +23,8 @@ Below is a list of my publications: click through the linked title for more deta
 
 ## Published
 
+- **M. Weylandt** and L. P. Swiler. "[Beyond PCA: Additional Dimension Reduction Techniques to Consider in the Development of Climate Fingerprints](publications/pca+.html)." *Journal of Climate* 37(5), pp.1723-1735. 2024.
+
 - **M. Weylandt**, G. Michailidis, and T. M. Roddenberry. "[Sparse Partial Least Squares for Coarse Noisy Graph Alignment](publications/conga.html)." *SSP 2021: Proceedings of the 2021 IEEE Statistical Signal Processing Workshop 2021*, pp.561-565. 2021.
 
 - **M. Weylandt**, T.M. Roddenberry, and G. I. Allen. "[Simultaneous Grouping and Denoising via Sparse Convex Wavelet Clustering](publications/convex_wavelet_clustering.html)." *DSLW 2021: Proceedings of the IEEE Data Science and Learning Workshop 2021*. pp.1-8. 2021.

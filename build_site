@@ -1,4 +1,4 @@
-#!/usr/bin/Rscript
+#!/usr/bin/env Rscript
 library(rmarkdown)
 library(distill)
 for(f in list.files('publications', pattern = "Rmd")){

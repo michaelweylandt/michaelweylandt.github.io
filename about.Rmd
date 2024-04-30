@@ -2,19 +2,9 @@
 title: "About Me"
 ---
 
-Michael Weylandt is currently a postdoctoral appointee in the Statistical Sciences
-group at Sandia National Laboratories, where he works with Laura P. Swiler and
-J. Derek Tucker on a variety of projects inspired by applications in national
-security and climate modeling. From October 2020 to September 2022, he was an Intelligence Community
-Postdoctoral Fellow, working with George Michailidis at the University
-of Florida, focusing on statistical machine learning theory for structured
-multivariate time series. His work has been recognized with best paper awards from
-the American Statistical Association in both Statistical Learning and
-Data Science and in Business & Economic Statistics. He has served as a
-mentor in the Google Summer of Code program for 7 years on behalf of
-the R Foundation for Statistical Computing and previously held an NSF
-Graduate Research Fellowship. He received a Bachelor's of Science in Engineering
-from Princeton University in 2008 and a Ph.D. in Statistics from Rice University
-in 2020, where he was supervised by Katherine B. Ensor.
+Michael Weylandt is an Assistant Professor in the Paul H. Chook Department of Information Systems and Statistics at the Zicklin School of Business, Baruch College, CUNY. Before joining Baruch, he held postdoctoral positions at Sandia National Laboratories and through the US Intelligence Community Postdoctoral Fellowship. His work has been recognized with best paper awards from the American Statistical Association in both Statistical Learning and
+Data Science and in Business & Economic Statistics. He has served as a mentor in the Google Summer of Code program for 7 years on behalf of the R Foundation for Statistical Computing and previously held an NSF Graduate Research Fellowship. He received a Bachelor's of Science in Engineering from Princeton University in 2008 and a Ph.D. in Statistics from Rice University in 2020, where he was supervised by Katherine B. Ensor.
+
+ 
 
 For more details, see my [Full CV](assets/Weylandt_CV.pdf).

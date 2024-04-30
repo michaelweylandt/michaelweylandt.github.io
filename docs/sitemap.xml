@@ -2,110 +2,126 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://michaelweylandt.github.io/about.html</loc>
-    <lastmod>2022-08-15T17:59:14-05:00</lastmod>
+    <lastmod>2024-04-23T16:29:25-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/contact.html</loc>
-    <lastmod>2022-02-17T21:57:16-06:00</lastmod>
+    <lastmod>2024-04-23T16:25:23-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://michaelweylandt.github.io/funding.html</loc>
+    <lastmod>2024-04-23T16:26:03-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/</loc>
-    <lastmod>2022-11-27T19:26:30-06:00</lastmod>
+    <lastmod>2024-04-23T16:23:56-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/publications/clustRviz.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/publications/coclustering_algs.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/publications/conga.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/publications/convex_wavelet_clustering.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/publications/fair_pca.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/publications/fairstacks.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/publications/hepatoscore14.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/publications/luis.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/publications/mrsfpca.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/publications/network_convex_clustering.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/publications/ng_volatility.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://michaelweylandt.github.io/publications/pca+.html</loc>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/publications/sfpca.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/publications/sstpca.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/publications/thesis.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/publications/tree_reproduction.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/publications/trout.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/publications.html</loc>
-    <lastmod>2022-08-31T10:16:00-05:00</lastmod>
+    <lastmod>2024-04-22T14:55:17-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://michaelweylandt.github.io/research.html</loc>
+    <lastmod>2024-04-30T18:08:20-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/software/bayeshmm.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/software/clustRviz.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/software/exlasso.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/software/MoMA.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/software/sgdnet.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/software/xtsplots.html</loc>
-    <lastmod>2022-11-27T19:26:43-06:00</lastmod>
+    <lastmod>2024-04-30T18:08:46-04:00</lastmod>
   </url>
   <url>
     <loc>https://michaelweylandt.github.io/software.html</loc>
-    <lastmod>2022-02-17T21:37:48-06:00</lastmod>
+    <lastmod>2024-04-22T13:21:39-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://michaelweylandt.github.io/teaching.html</loc>
+    <lastmod>2024-04-30T18:08:43-04:00</lastmod>
   </url>
 </urlset>
