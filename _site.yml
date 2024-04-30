@@ -1,8 +1,8 @@
 name: "website"
 title: "Michael Weylandt"
 description: |
-  Michael Weylandt's Research Website: Subscribe for Notifications of New publications
-base_url: "https://michaelweylandt.github.io/"
+  Michael Weylandt's Research Website
+base_url: "https://michael-weylandt.com/"
 output_dir: "docs"
 exclude: ["build_site"]
 navbar:
