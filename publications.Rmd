@@ -6,6 +6,8 @@ Below is a list of my publications: click through the linked title for more deta
 
 ## Submitted 
 
+- R. B. Lehoucq, **M. Weylandt**, and J. W. Berry. "[Optimal accuracy for linear sets of equations with the graph Laplacian](publications/ddcn.html)". 2024.
+
 - C. O. Little†, **M. Weylandt**† and G. I. Allen. "[To the Fairness Frontier and Beyond: Identifying, Quantifying, and Optimizing the Fairness-Accuracy Pareto Frontier](publications/fairstacks.html)". 2022.
 
 - **M. Weylandt** and G. Michailidis. "[Multivariate Analysis for Multiple Network Data via Semi-Symmetric
