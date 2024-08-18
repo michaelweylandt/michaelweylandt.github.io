@@ -1,0 +1,19 @@
+---
+title: "Ecological correlates of reproductive status in a guild of Afrotropical understory trees"
+description: "Submitted Journal Publication"
+author:
+  - name: Andrea P. Drager
+    affiliation: Department of Biosciences, Rice University
+  - name: Michael Weylandt
+    url: https://michaelweylandt.github.io
+    affiliation: Department of Statistics, Rice University
+  - name: George Chuyong
+  - name: David Kenfack
+  - name: Duncan W. Thomas
+  - name: Amy E. Dunham
+    affiliation: Department of Biosciences, Rice University
+---
+
+**Abstract:** The relative abundance patterns of tropical trees have been of interest since the expeditions of Alfred Russel Wallace, but little is known about how differences in relative abundance relate to reproductive patterns. Flowering is resource-dependent and fitness differences as well as differences in the quality of the abiotic and biotic neighborhood may contribute to the variation in reproductive status responsible for population-level flowering patterns. This variation determines the density and distance between flowering conspecifics and may alter relative abundance extremes among species during reproduction, factors known to influence pollination success. We collected flowering status data for a guild of twenty-three co-occurring tree species that flower in the understory of the Korup Forest Dynamics Plot in Cameroon. We examined how the occurrence and location of reproductive events were related to spatial patterns of adult abundance, focal tree size, neighborhood crowding, and habitat, while accounting for the influence of shared ancestry. Across species, the probability of flowering was higher for individuals of rarer species and for larger individuals but was unrelated to neighborhood crowding or habitat differences. Relative abundance extremes were reduced when only flowering individuals were considered, leading to a negative relationship between plot abundance and flowering probability at the species level that was not structured by shared ancestry. Spatially, flowering conspecifics tended to be overdispersed relative to all adult conspecifics. Rare species are predicted to suffer Allee effects or reduced fitness due to the difficulty of finding mates at low densities and frequencies. Here, however, rare species appear to maximize the size of their mate pool, compared to abundant species. If this partial "leveling of the playing field" during reproduction is typical, it has consequences for our understanding of biodiversity maintenance and species coexistence in tropical forests.
+
+**Working Paper:** [BioRXiv 10.1101/2021.01.14.426416](https://doi.org/10.1101/2021.01.14.426416)

@@ -1,0 +1,33 @@
+---
+title: "HepatoScore‐14: Measures of biological heterogeneity significantly improve prediction of hepatocellular carcinoma risk"
+description: "*Hepatology* 73(6), pp. 2278-2292. 2021."
+author:
+  - name: J. S. Morris et al.
+---
+
+**Abstract:** Background and Aims: Therapeutic, clinical trial entry and stratification decisions for hepatocellular carcinoma (HCC) are made based on prognostic assessments, using clinical staging systems based on small numbers of empirically selected variables that insufficiently account for differences in biological characteristics of individual patients’ disease.
+
+Approach and Results: We propose an approach for constructing risk scores from circulating biomarkers that produce a global biological characterization of individual patient’s disease. Plasma samples were collected prospectively from 767 patients with HCC and 200 controls, and 317 proteins were quantified in a Clinical Laboratory Improvement Amendments–certified biomarker testing laboratory. We constructed a circulating biomarker aberration score for each patient, a score between 0 and 1 that measures the degree of aberration of his or her biomarker panel relative to normal, which we call HepatoScore. We used log-rank tests to assess its ability to substratify patients within existing staging systems/prognostic factors. To enhance clinical application, we constructed a single-sample score, HepatoScore-14, which requires only a subset of 14 representative proteins encompassing the global biological effects. Patients with HCC were split into three distinct groups (low, medium, and high HepatoScore) with vastly different prognoses (medial overall survival 38.2/18.3/7.1 months; P < 0.0001). Furthermore, HepatoScore accurately substratified patients within levels of existing prognostic factors and staging systems (P < 0.0001 for nearly all), providing substantial and sometimes dramatic refinement of expected patient outcomes with strong therapeutic implications. These results were recapitulated by HepatoScore-14, rigorously validated in repeated training/test splits, concordant across Myriad RBM (Austin, TX) and enzyme-linked immunosorbent assay kits, and established as an independent prognostic factor.
+
+Conclusions: HepatoScore-14 augments existing HCC staging systems, dramatically refining patient prognostic assessments and therapeutic decision making and enrollment in clinical trials. The underlying strategy provides a global biological characterization of disease, and can be applied broadly to other disease settings and biological media.
+
+**Publisher DOI:** [10.1002/hep.31555](https://doi.org/10.1002/hep.31555)
+
+**PubMed:** [32931023](https://pubmed.ncbi.nlm.nih.gov/32931023/)
+
+<hr>
+
+**Citation:**
+
+```
+@ARTICLE{Morris:2021,
+  AUTHOR="J.S. Morris and M.M. Hassan and Y.E. Zohner and Z. Wang and L. Xiao and A. Rashid and A. Haque and R. Abdel-Wahad and Y.A. Mohamed and K.L. Ballard and R.A. Wolff and B. George and L. Li and G.I. Allen and M. Weylandt and D. Li and W. Wang and K. Raghav and J. Yao and H.M. Amin and A.O. Kaseb",
+  TITLE="HepatoScore14: Measures of biological heterogeneity significantly improve prediction of hepatocellular carcinoma risk",
+  JOURNAL="Hepatology",
+  VOLUME=73,
+  NUMBER=6,
+  PAGES="2278--2292",
+  YEAR=2021,
+  DOI="10.1002/hep.31555"
+}
+```
