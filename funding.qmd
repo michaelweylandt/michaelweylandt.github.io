@@ -6,4 +6,4 @@ My research has been supported by grants and fellowships from the US National Sc
 
 **Current Funding**
 
-1. SNL LDRD. $40,000. "CLDERA: Climate Attribution through Enhanced Fingerprinting" (PI).^[Subcontract to [CLDERA](https://www.sandia.gov/cldera/); CLDERA PI: D. Bull (SNL).]
+1. SNL LDRD. $60,000. "CLDERA: Climate Attribution through Enhanced Fingerprinting" (PI).^[Subcontract to [CLDERA](https://www.sandia.gov/cldera/); CLDERA PI: D. Bull (SNL).]
