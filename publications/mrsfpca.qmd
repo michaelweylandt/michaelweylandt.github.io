@@ -3,7 +3,7 @@ title: "Multi-Rank Sparse and Functional PCA: Manifold Optimization and Iterativ
 description: "*CAMSAP 2019: Proceedings of the IEEE 8th International Workshop on Computational Advances in Multi-Sensor Adaptive Processing*, pp.500-504. 2019."
 author:
   - name: Michael Weylandt
-    url: https://michaelweylandt.github.io
+    url: https://michael-weylandt.com/
     affiliation: Department of Statistics, Rice University
 ---
 

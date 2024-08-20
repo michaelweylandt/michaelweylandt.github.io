@@ -3,7 +3,7 @@ title: "xtsPlots"
 description: "*Additional Plotting Tools for xts Objects*"
 author:
   - name: Michael Weylandt
-    url: https://michaelweylandt.github.io
+    url: https://michael-weylandt.com/
     affiliation: Department of Statistics, Rice University
 ---
 

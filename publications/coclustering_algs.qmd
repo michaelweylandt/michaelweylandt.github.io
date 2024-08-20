@@ -3,7 +3,7 @@ title: "Splitting Methods for Convex Bi-Clustering and Co-Clustering"
 description: "*DSW 2019: Proceedings of the IEEE Data Science Workshop 2019*, pp.237-244. 2019."
 author:
   - name: Michael Weylandt
-    url: https://michaelweylandt.github.io
+    url: https://michael-weylandt.com/
     affiliation: Department of Statistics, Rice University
 ---
 

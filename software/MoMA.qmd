@@ -3,7 +3,7 @@ title: "MoMA"
 description: "*Modern Multivariate Analysis - PCA, PLS, CCA, and LDA with Sparsity, Smoothness, and Structure*"
 author:
   - name: Michael Weylandt
-    url: https://michaelweylandt.github.io
+    url: https://michael-weylandt.com/
     affiliation: Department of Statistics, Rice University
   - name: Genevera I. Allen
     url: https://genevera.rice.edu

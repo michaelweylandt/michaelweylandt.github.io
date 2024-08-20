@@ -5,7 +5,7 @@ author:
   - name: Camille Olivia Little†
     affiliation: Department of Electrical & Computer Engineering, Rice University
   - name: Michael Weylandt†
-    url: https://michaelweylandt.github.io
+    url: https://michael-weylandt.com/
     affiliation: UF Informatics Insitute
   - name: Genevera I. Allen
     url: https://genevera.rice.edu

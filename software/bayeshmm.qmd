@@ -6,14 +6,11 @@ author:
     url: https://luisdamiano.github.io/
     affiliation: Department of Statistics, Iowa State University
   - name: Michael Weylandt
-    url: https://michaelweylandt.github.io
+    url: https://michael-weylandt.com/
     affiliation: Department of Statistics, Rice University
   - name: Brian Peterson
     url: http://braverock.com/brian/
     affiliation: University of Washington
-  - name: Michael Weylandt
-    url: https://michaelweylandt.github.io
-    affiliation: Department of Statistics, Rice University
 ---
 
 The **BayesHMM** **R** package implements a comprehensive framework for Bayesian inference of Hidden Markov Models, including a tailored DSL for model specification, automatic translation to the **Stan** modeling language, and a variety of diagnostic tools. Under the hood, the package uses the techniques we discuss in [our tutorial](../publications/luis.html), but additional performance improvements could be achieved by rewriting the backend to use Stan's new built-in HMM tools. The package should be stable, but has not been thoroughly validated.

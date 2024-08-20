@@ -3,7 +3,7 @@ title: "Sparse Partial Least Squares for Coarse Noisy Graph Alignment"
 description: "*SSP 2021: Proceedings of the 2021 IEEE Statistical Signal Processing Workshop*, pp.561-565. 2021."
 author:
   - name: Michael Weylandt
-    url: https://michaelweylandt.github.io
+    url: https://michael-weylandt.com/
     affiliation: UF Informatics Insitute
   - name: George Michailidis
     affiliation: Department of Statistics and Informatics Institute, University of Florida

@@ -3,7 +3,7 @@ title: "Computational and Statistical Methodology for Highly Structured Data"
 description: "Ph.D. Thesis, Rice University"
 author:
   - name: Michael Weylandt
-    url: https://michaelweylandt.github.io
+    url: https://michael-weylandt.com
     affiliation: Department of Statistics, Rice University
 ---
 

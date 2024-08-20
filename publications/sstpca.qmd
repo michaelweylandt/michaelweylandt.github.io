@@ -3,7 +3,7 @@ title: "Multivariate Analysis for Multiple Network Data via Semi-Symmetric Tenso
 description: "Submitted article (under review)"
 author:
   - name: Michael Weylandt
-    url: https://michaelweylandt.github.io
+    url: https://michael-weylandt.com
     affiliation: UF Informatics Insitute
   - name: George Michailidis
     affiliation: Department of Statistics and Informatics Institute, University of Florida

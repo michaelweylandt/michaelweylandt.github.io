@@ -3,7 +3,7 @@ title: "Dynamic Visualization and Fast Computation for Convex Clustering via Alg
 description: "*Journal of Computational and Graphical Statistics* 29(1), pp. 87-96. 2020"
 author:
   - name: Michael Weylandt
-    url: https://michaelweylandt.github.io
+    url: https://michael-weylandt.com/
     affiliation: Department of Statistics, Rice University
   - name: John Nagorski
     affiliation: Department of Statistics, Rice University

@@ -3,7 +3,7 @@ title: "clustRviz"
 description: "*Interactive Visualizations and Fast Computation for Convex Clustering*"
 author:
   - name: Michael Weylandt
-    url: https://michaelweylandt.github.io
+    url: https://michael-weylandt.com/
     affiliation: Department of Statistics, Rice University
   - name: John Nagorski
     affiliation: Department of Statistics, Rice University

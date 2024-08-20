@@ -5,7 +5,7 @@ author:
   - name: Andrea P. Drager
     affiliation: Department of Biosciences, Rice University
   - name: Michael Weylandt
-    url: https://michaelweylandt.github.io
+    url: https://michael-weylandt.com
     affiliation: Department of Statistics, Rice University
   - name: George Chuyong
   - name: David Kenfack

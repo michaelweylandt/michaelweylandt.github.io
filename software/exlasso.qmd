@@ -3,7 +3,7 @@ title: "ExclusiveLasso"
 description: "*Generalized Linear Models with the Exclusive Lasso Penalty*"
 author:
   - name: Michael Weylandt
-    url: https://michaelweylandt.github.io
+    url: https://michael-weylandt.com/
     affiliation: Department of Statistics, Rice University
   - name: Frederick Campbell
     affiliation: Department of Statistics, Rice University

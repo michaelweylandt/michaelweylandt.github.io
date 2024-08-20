@@ -3,7 +3,7 @@ title: "Automatic Registration and Convex Clustering of Time Series"
 description: "*ICASSP 2021: Proceedings of the 2021 IEEE International Conference on Acoustics, Speech and Signal Processing*, pp.5609-5613. 2021"
 author:
   - name: Michael Weylandt
-    url: https://michaelweylandt.github.io
+    url: https://michael-weylandt.com/
     affiliation: UF Informatics Insitute
   - name: George Michailidis
     affiliation: Department of Statistics and Informatics Institute, University of Florida

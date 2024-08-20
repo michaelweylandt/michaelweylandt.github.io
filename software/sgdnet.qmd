@@ -9,7 +9,7 @@ author:
     url: https://tdhock.github.io/
     affiliation: Northern Arizona University
   - name: Michael Weylandt
-    url: https://michaelweylandt.github.io
+    url: https://michael-weylandt.com/
     affiliation: Department of Statistics, Rice University
 ---
 

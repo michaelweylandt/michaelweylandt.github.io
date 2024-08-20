@@ -9,7 +9,7 @@ author:
     url: http://braverock.com/brian/
     affiliation: University of Washington
   - name: Michael Weylandt
-    url: https://michaelweylandt.github.io
+    url: https://michael-weylandt.com/
     affiliation: Department of Statistics, Rice University
 ---
 

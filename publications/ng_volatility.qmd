@@ -3,7 +3,7 @@ title: "Multivariate Modeling of Natural Gas Spot Trading Hubs Incorporating Fut
 description: "Submitted Journal Paper"
 author:
   - name: Michael Weylandt
-    url: https://michaelweylandt.github.io
+    url: https://michael-weylandt.com/
     affiliation: Department of Statistics, Rice University
   - name: Yu Han
     affiliation: Department of Statistics, Rice University
