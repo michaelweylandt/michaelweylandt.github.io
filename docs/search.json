@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "Hello and welcome to my website! My name is Michael Weylandt.\nI am a (tenure-track) Assistant Professor in the postdoctoral appointee in the Paul H. Chook Department of Information Systems and Statistics in the Zicklin School of Business at Baruch College, City University of New York (CUNY). My research is in statistical machine learning, with particular recent interests in climate statistics, network data, and machine learning fairness. Before joining Baruch, I was a Postdoctoral Appointee in the Statistical Sciences group at Sandia National Laboratories, working J. Derek Tucker and Laura P. Swiler, and before that I was an US Intelligence Community Postdoctoral Research Fellow hosted at the University of Florida Informatics Institute, where I was advised by George Michailidis as well as two mentors from the Intelligence Community. I earned my Ph.D. in Statistics at Rice University in 2020, worked in finance from 2013 to 2015, and taught at Sherborne School in the UK from 2012 to 2013.\nFor a more formal bio, please see my CV and my About page. More detail on my Publications and Software can be found on those pages."
+    "text": "Hello and welcome to my website! My name is Michael Weylandt.\nI am a (tenure-track) Assistant Professor in the Paul H. Chook Department of Information Systems and Statistics in the Zicklin School of Business at Baruch College, City University of New York (CUNY). My research is in statistical machine learning, with particular recent interests in climate statistics, network data, and machine learning fairness. Before joining Baruch, I was a Postdoctoral Appointee in the Statistical Sciences group at Sandia National Laboratories, working J. Derek Tucker and Laura P. Swiler, and before that I was an US Intelligence Community Postdoctoral Research Fellow hosted at the University of Florida Informatics Institute, where I was advised by George Michailidis as well as two mentors from the Intelligence Community. I earned my Ph.D. in Statistics at Rice University in 2020, worked in finance from 2013 to 2015, and taught at Sherborne School in the UK from 2012 to 2013.\nFor a more formal bio, please see my CV and my About page. More detail on my Publications and Software can be found on those pages."
   },
   {
     "objectID": "publications/convex_wavelet_clustering.html",
@@ -137,7 +137,7 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "At Zicklin School of Business\n\nSTA9890: Statistical Learning for Data Mining. (Master’s Level)\nSTA9750/OPR9750: Basic Software Tools for Data Analysis. (Master’s Level)\nSTA9715: Applied Probability. (Master’s Level)"
+    "text": "At Zicklin School of Business\n\nSTA9890: Statistical Learning for Data Mining\nSTA9750/OPR9750: Basic Software Tools for Data Analysis: Fall 2024\nSTA9715: Applied Probability: Fall 2024"
   },
   {
     "objectID": "research.html",

@@ -5,7 +5,7 @@ author:
   - name: Richard B. Lehoucq
     affiliation: Sandia National Laboratories
     url: https://www.sandia.gov/-rblehou/staff/richard-lehoucq/
-  - name: Michael Weylandt†
+  - name: Michael Weylandt
     url: https://michael-weylandt.com
     affiliation: Zicklin School of Business, Baruch College, CUNY
   - name: Jonathan W. Berry 
