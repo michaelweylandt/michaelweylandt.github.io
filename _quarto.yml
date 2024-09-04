@@ -4,9 +4,11 @@ project:
 
 website:
   title: "Michael Weylandt"
-  description: 
+  description:
     Michael Weylandt's Research Website
   site-url: "https://michael-weylandt.com/"
+  repo-url: https://github.com/michaelweylandt/michaelweylandt.github.io
+  repo-actions: [edit, source, issue]
   navbar:
     background: primary
     search: true
@@ -26,7 +28,7 @@ website:
       - text: "Contact"
         href: "./contact.html"
 
-format: 
+format:
   html:
     theme:
       - darkly

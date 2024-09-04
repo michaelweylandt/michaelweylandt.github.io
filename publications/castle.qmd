@@ -1,5 +1,5 @@
 ---
-title: "Beyond PCA: Additional Dimension Reduction Techniques to Consider in the Development of Climate Fingerprints"
+title: "Space-Time Causal Discovery in Climate Science: A Local Stencil Learning Approach"
 description: "Submitted article (under review)"
 author:
   - name: J. Jake Nichol

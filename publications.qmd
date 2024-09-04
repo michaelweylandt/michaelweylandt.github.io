@@ -6,6 +6,8 @@ Below is a list of my publications: click through the linked title for more deta
 
 ## Submitted 
 
+- C.R. Wentland, **M. Weylandt**, L.P. Swiler, T.S. Ehrmann, and D.Bull "[Conditional multi-step attribution for climate forcings](publications/wentland_attribution.html)" 2024.
+
 - J.J. Nichol, **M. Weylandt**, G.M. Fricke, M. Moses, D. Bull, and L.P. Swiler. "[Causal Spatiotemporal Stencil Learning: Local Causal Dynamics in Complex Systems.](publications/castle.html)" 2024.
 
 - R. B. Lehoucq, **M. Weylandt**, and J. W. Berry. "[Optimal accuracy for linear sets of equations with the graph Laplacian](publications/ddcn.html)". 2024.

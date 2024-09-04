@@ -6,12 +6,14 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Christopher R. Wentland">
 <meta name="author" content="Michael Weylandt">
-<meta name="author" content="Genevera I. Allen">
-<meta name="author" content="Luofeng Liao">
-<meta name="description" content="Modern Multivariate Analysis - PCA, PLS, CCA, and LDA with Sparsity, Smoothness, and Structure">
+<meta name="author" content="Laura P. Swiler">
+<meta name="author" content="Thomas S. Ehrmann">
+<meta name="author" content="Diana Bull">
+<meta name="description" content="Submitted article (under review)">
 
-<title>MoMA – Michael Weylandt</title>
+<title>Conditional multi-step attribution for climate forcings – Michael Weylandt</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -136,12 +138,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">MoMA</h1>
+<h1 class="title">Conditional multi-step attribution for climate forcings</h1>
 </div>
 
 <div>
   <div class="description">
-    <em>Modern Multivariate Analysis - PCA, PLS, CCA, and LDA with Sparsity, Smoothness, and Structure</em>
+    Submitted article (under review)
   </div>
 </div>
 
@@ -150,25 +152,44 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-meta-heading">Affiliations</div>
   
     <div class="quarto-title-meta-contents">
+    <p class="author">Christopher R. Wentland </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Sandia National Laboratories
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
     <p class="author"><a href="https://michael-weylandt.com/">Michael Weylandt</a> </p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
-            Department of Statistics, Rice University
+            Baruch College, CUNY
           </p>
       </div>
     <div class="quarto-title-meta-contents">
-    <p class="author"><a href="https://genevera.rice.edu">Genevera I. Allen</a> </p>
+    <p class="author">Laura P. Swiler </p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
-            Departments of Electrical &amp; Computer Engineering, Statistics, and Computer Science, Rice University
+            Sandia National Laboratories
           </p>
       </div>
     <div class="quarto-title-meta-contents">
-    <p class="author">Luofeng Liao </p>
+    <p class="author">Thomas S. Ehrmann </p>
   </div>
   <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Sandia National Laboratories
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Diana Bull </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Sandia National Laboratories
+          </p>
       </div>
   </div>
 
@@ -184,11 +205,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The <strong>MoMA</strong> <strong>R</strong> package implements the Sparse and Functional PCA (SFPCA) framework, as well as its extensions to CCA, PLS, and Linear Discriminant Analysis. In addition to standard sparse (Lasso) penalization, the package also allows for the group lasso, the fused lasso, convex clustering, SCAD, MCP, and SLOPE penalization of both the left and right singular vectors.</p>
-<p>The core numerical routines of this package are stable, but the user interface and tuning parameter selection routines are still a work in progress. If you are interested in collaborating on further development of this package, please <a href="../contact.html">get in touch</a>.</p>
-<p><strong>Direct Link:</strong> http://github.com/DataSlingers/MoMA</p>
-<p><strong>Package Documentation:</strong> https://DataSlingers.github.io/MoMA/</p>
-<p><strong>Related Publications:</strong> <a href="../publications/sfpca.html">Sparse and Functional PCA</a>, <a href="../publications/mrsfpca.html">Multi-Rank SFPCA</a>, <a href="../publications/conga.html">Coarse Noisy Graph Alignment</a></p>
+<p><strong>Abstract:</strong> Attribution of climate impacts to a source forcing is critical to understanding, communicating, and addressing the effects of human influence on the climate. While standard attribution methods, such as optimal fingerprinting, have been successfully applied to long-term, widespread effects such as global surface temperature warming, they often struggle in low signal-to-noise regimes, typical of short-term climate forcings or climate variables which are loosely related to the forcing. Single-step approaches, which directly relate a source forcing and final impact, are unable to utilize additional climate information to improve attribution certainty. To address this shortcoming, this paper presents a novel multi-step attribution approach which is capable of analyzing multiple variables conditionally. A connected series of climate effects are treated as dependent, and relationships found in intermediary steps of a causal pathway are leveraged to better characterize the forcing impact. This enables attribution of the forcing level responsible for the observed impacts, while equivalent single-step approaches fail. Utilizing a scalar feature describing the forcing impact, simple forcing response models, and a conditional Bayesian formulation, this method can incorporate several causal pathways to identify the correct forcing magnitude. As an exemplar of a short-term, high-variance forcing, we demonstrate this method for the 1991 eruption of Mt. Pinatubo. Results indicate that including stratospheric and surface temperature and radiative flux measurements increases attribution certainty compared to analyses derived solely from temperature measurements. This framework has potential to improve climate attribution assessments for both geoengineering projects and long-term climate change, for which standard attribution methods may fail.</p>
+<p><strong>Working Copy:</strong> <a href="https://arxiv.org/abs/2409.01396">ArXiv 2409.01396</a></p>
+<hr>
+<p><strong>Citation:</strong></p>
+<pre><code>@ARTICLE{Wentland:2024,
+  AUTHOR="Christopher R. Wentland and Michael Weylandt and Laura P. Swiler and Thomas S. Ehrmann and Diana Bull",
+  TITLE="Conditional multi-step attribution for climate forcings",
+  YEAR=2024,
+  DOI={10.48550/arXiv.2409.01396},
+  JOURNAL="ArXiv Pre-Print 2409.01396"
+}</code></pre>
 
 
 
@@ -618,4 +645,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/michaelweylandt/michaelweylandt.github.io/edit/main/software/MoMA.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/michaelweylandt/michaelweylandt.github.io/blob/main/software/MoMA.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/michaelweylandt/michaelweylandt.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/michaelweylandt/michaelweylandt.github.io/edit/main/publications/wentland_attribution.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/michaelweylandt/michaelweylandt.github.io/blob/main/publications/wentland_attribution.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/michaelweylandt/michaelweylandt.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
