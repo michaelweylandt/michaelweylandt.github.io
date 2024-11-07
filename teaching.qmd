@@ -4,7 +4,7 @@ title: "Teaching"
 
 **At Zicklin School of Business**
 
-1. STA9890: Statistical Learning for Data Mining
-2. STA9750/OPR9750: Basic Software Tools for Data Analysis: [Fall 2024](./STA9750)
+1. STA9890: Statistical Learning for Data Mining: Spring 2025; Spring 2024
+2. STA9750/OPR9750: Basic Software Tools for Data Analysis: Spring 2025; [Fall 2024](./STA9750); Spring 2024
 3. STA9715: Applied Probability: [Fall 2024](./STA9715)
 
