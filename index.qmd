@@ -11,14 +11,16 @@ College](https://baruch.cuny.edu/), [City University of New York (CUNY)](https:/
 My research is in statistical machine learning, with particular recent interests
 in climate statistics, network data, and machine learning fairness. Before joining
 Baruch, I was a Postdoctoral Appointee in the Statistical Sciences group at Sandia
-National Laboratories, working with [J. Derek Tucker](https://research.tetonedge.net/)
+National Laboratories, working with [J. Derek
+Tucker](https://research.tetonedge.net/)
 and [Laura P. Swiler](https://www.sandia.gov/ccr/staff/laura-painton-swiler/),
 and before that I was an US Intelligence Community Postdoctoral Research Fellow
 hosted at the University of Florida Informatics Institute, where I was advised by
 [George Michailidis](https://georgemichailidis.github.io/) as well as two mentors
-from the Intelligence Community. I earned my Ph.D. in Statistics at Rice University
-in 2020, worked in finance from 2013 to 2015, and taught at Sherborne School in
-the UK from 2012 to 2013. 
+from the Intelligence Community. I earned my Ph.D. in Statistics at Rice
+University in 2020 under the supervision of [Kathy Ensor](https://ensor.rice.edu/),
+worked in finance from 2013 to 2015, and taught at Sherborne School in the UK
+from 2012 to 2013. 
 
 For a more formal bio, please see my [CV](assets/Weylandt_CV.pdf) and my
 [About](about.html) page. More detail on my
