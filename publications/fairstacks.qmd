@@ -6,10 +6,10 @@ author:
     affiliation: Department of Electrical & Computer Engineering, Rice University
   - name: Michael Weylandt†
     url: https://michael-weylandt.com/
-    affiliation: UF Informatics Insitute
+    affiliation: Zicklin School of Business, Baruch College, CUNY
   - name: Genevera I. Allen
-    url: https://genevera.rice.edu
-    affiliation: Departments of Electrical & Computer Engineering, Statistics, and Computer Science, Rice University
+    url: https://genevera-allen.com
+    affiliation: Department of Statistics, Columbia University
 ---
 
 **Abstract:** Algorithmic fairness has emerged as an important consideration when developing and deploying machine learning models to make high-stakes societal decisions. Yet, improved fairness often comes at the expense of model accuracy. While aspects of the fairness-accuracy tradeoff have been studied, most work reports the fairness and accuracy of various models separately; this makes model comparisons nearly impossible without a unified model-agnostic metric that reflects the Pareto optimal balance of the two desiderata. In this paper, we seek to identify, quantify, and optimize the empirical Pareto frontier of the fairness-accuracy tradeoff, defined as the highest attained accuracy at every level of fairness for a collection of fitted models. Specifically, we identify and outline the empirical Pareto frontier through our Tradeoff-between-Fairness-and-Accuracy (TAF) Curves; we then develop a single metric to quantify this Pareto frontier through the weighted area under the TAF Curve which we term the Fairness-Area-Under-the-Curve (FAUC). Our TAF Curves provide the first empirical, model-agnostic characterization of the Pareto frontier, while our FAUC provides the first unified metric to impartially compare model families in terms of both fairness and accuracy. Both TAF Curves and FAUC are general and can be employed with all group fairness definitions and accuracy measures. Next, we ask: Is it possible to expand the empirical Pareto frontier and thus improve the FAUC for a given collection of fitted models? We answer in the affirmative by developing a novel fair model stacking framework, FairStacks. FairStacks solves a convex program to maximize the accuracy of a linear combination of fitted models subject to a constraint on score-based model bias. We show that optimizing with FairStacks always expands the empirical Pareto frontier and improves the FAUC; we additionally study other theoretical properties of our proposed approach. Finally, we empirically validate TAF, FAUC, and FairStacks through studies on several real benchmark data sets, showing that FairStacks leads to major improvements in FAUC that outperform existing algorithmic fairness approaches.

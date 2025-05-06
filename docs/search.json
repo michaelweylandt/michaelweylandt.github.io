@@ -151,7 +151,7 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "At Zicklin School of Business\n\nSTA9890: Statistical Learning for Data Mining:\n\nSpring 2025\nSpring 2024\n\nSTA9750/OPR9750: Basic Software Tools for Data Analysis:\n\nFall 2025\nSpring 2025\nFall 2024\nSpring 2024\n\nSTA9715: Applied Probability:\n\nFall 2025\nFall 2024"
+    "text": "At Zicklin School of Business"
   },
   {
     "objectID": "contact.html",
@@ -299,5 +299,12 @@
     "title": "Research Support and Funding",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nSubcontract to CLDERA; CLDERA PI: D. Bull (SNL).↩︎"
+  },
+  {
+    "objectID": "teaching.html#footnotes",
+    "href": "teaching.html#footnotes",
+    "title": "Teaching",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nCurrently, my plan is for the Tuesday and Thursday sections of the full semester offering to be interchangeable. Students who register for one section will be able to attend the other section occasionally if they have a conflict that week. The half-semester section will be run separately.↩︎\nI will not be teaching STA9715 in Fall 2025. Prof. Rongning Wu will be teaching this course instead.↩︎"
   }
 ]

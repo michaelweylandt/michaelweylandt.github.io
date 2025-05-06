@@ -9,7 +9,7 @@ author:
     url: https://www.roddenberry.xyz/
     affiliation: Department of Electrical & Computer Engineering, Rice University
   - name: Genevera I. Allen
-    url: https://genevera.rice.edu
+    url: https://genevera-allen.com
     affiliation: Departments of Electrical & Computer Engineering, Computer Science, and Statistics, Rice University
 ---
 

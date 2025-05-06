@@ -8,11 +8,22 @@ title: "Teaching"
    - [Spring 2025](./STA9890)
    - Spring 2024
 2. STA9750/OPR9750: Basic Software Tools for Data Analysis: 
-   - Fall 2025
+   - Fall 2025[^fn0]
+     - Full Semester (Traditional): Tuesday and Thursday Evenings
+     - Half Semester (Accelerated) for the [Zicklin Online MSBA](https://zicklin.baruch.cuny.edu/academic-programs/graduate/ms/online-msba/)
    - [Spring 2025](./STA9750) 
    - [Fall 2024](./STA9750/archive/AY-2024-FALL)
    - Spring 2024
 3. STA9715: Applied Probability: 
-   - Fall 2025
+   - ~~Fall 2025~~[^fn1]
    - [Fall 2024](./STA9715)
+   
+[^fn0]: Currently, my plan is for the Tuesday and Thursday sections
+of the full semester offering to be interchangeable. Students who
+register for one section will be able to attend the other section
+occasionally if they have a conflict that week. The half-semester
+section will be run separately.
 
+[^fn1]: I will not be teaching STA9715 in Fall 2025. 
+[Prof. Rongning Wu](https://www.baruch.cuny.edu/profiles/faculty/Rongning-Wu) 
+will be teaching this course instead. 

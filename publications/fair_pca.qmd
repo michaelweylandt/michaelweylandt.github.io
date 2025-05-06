@@ -6,7 +6,7 @@ author:
     url: https://michael-weylandt.com/
     affiliation: UF Informatics Insitute
   - name: Genevera I. Allen
-    url: https://genevera.rice.edu
+    url: https://genevera-allen.com
     affiliation: Departments of Electrical & Computer Engineering, Computer Science, and Statistics, Rice University
 ---
 

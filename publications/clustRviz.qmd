@@ -8,7 +8,7 @@ author:
   - name: John Nagorski
     affiliation: Department of Statistics, Rice University
   - name: Genevera I. Allen
-    url: https://genevera.rice.edu
+    url: https://genevera-allen.com
     affiliation: Departments of Statistics, Electrical & Computer Engineering, and Computer Science, Rice University
 ---
 

@@ -3,7 +3,7 @@ title: "Sparse and Functional Principal Components Analysis"
 description: "*DSW 2019: Proceedings of the IEEE Data Science Workshop 2019*, pp.11-16. 2019."
 author:
   - name: Genevera I. Allen
-    url: https://genevera.rice.edu
+    url: https://genevera-allen.com
     affiliation: Departments of Electrical & Computer Engineering, Computer Science, and Statistics, Rice University
   - name: Michael Weylandt
     url: https://michael-weylandt.com
