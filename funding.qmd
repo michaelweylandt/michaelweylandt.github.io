@@ -2,8 +2,12 @@
 title: "Research Support and Funding"
 ---
 
-My research has been supported by grants and fellowships from the US National Science Foundation (NSF), the US Intelligence Community (US IC), and the Sandia National Laboratories Laboratory Directed Research and Development program (SNL LDRD). 
+My research has been supported by grants and fellowships from the US National Science Foundation (NSF), the US Intelligence Community (US IC), the Sandia National Laboratories Laboratory Directed Research and Development program (SNL LDRD), and the PSC CUNY Award Program. 
 
 **Current Funding**
+
+1. [PSC CUNY Award Program](https://www.rfcuny.org/rfwebsite/principal-investigators/explore-pre-award-resources/psc-cuny-award-program/). $3,494. "Seeded Local Community Detection in Complex Network Data." Cycle 56, Award #68232-00 56. 
+
+**Previous Funding**
 
 1. SNL LDRD. $60,000. "CLDERA: Climate Attribution through Enhanced Fingerprinting" (PI).^[Subcontract to [CLDERA](https://www.sandia.gov/cldera/); CLDERA PI: D. Bull (SNL).]

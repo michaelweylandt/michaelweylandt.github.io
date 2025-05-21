@@ -1,5 +1,29 @@
 #!/usr/bin/env Rscript
+library(tidyverse)
+pull_bib <- function(filename){
+    r <- readLines(filename)
+
+    suppressWarnings({
+        start <- min(which(str_detect(r, "^@")))
+        end <- max(which(str_detect(r, "^\\}")))
+    })
+
+    if(!is.na(start) & !is.na(end) & (start < end-2)){
+        c(paste(r[start:end], collapse="\n"), "\n")
+    } else {
+        warning("No entry found for ", filename, call.=FALSE)
+        "\n"
+    }
+}
+list.files("publications",
+           pattern="*qmd",
+           full.names = TRUE) |>
+    map(pull_bib) |>
+    list_c() |>
+    paste(collapse="\n") |>
+    writeLines(con="assets/weylandt.bib")
+system("git add assets/weylandt.bib")
+
 library(quarto)
 quarto::quarto_render(".")
-system("git add docs/*")
-q("no")
+system("git add docs/**")

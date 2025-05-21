@@ -8,8 +8,6 @@ Below is a list of my publications: click through the linked title for more deta
 
 - C.R. Wentland, **M. Weylandt**, L.P. Swiler, T.S. Ehrmann, and D.Bull "[Conditional multi-step attribution for climate forcings](publications/wentland_attribution.html)" 2024.
 
-- J.J. Nichol, **M. Weylandt**, G.M. Fricke, M. Moses, D. Bull, and L.P. Swiler. "[Causal Spatiotemporal Stencil Learning: Local Causal Dynamics in Complex Systems.](publications/castle.html)" 2024.
-
 - R. B. Lehoucq, **M. Weylandt**, and J. W. Berry. "[Optimal accuracy for linear sets of equations with the graph Laplacian](publications/ddcn.html)". 2024.
 
 - C. O. Little†, **M. Weylandt**† and G. I. Allen. "[To the Fairness Frontier and Beyond: Identifying, Quantifying, and Optimizing the Fairness-Accuracy Pareto Frontier](publications/fairstacks.html)". 2022.
@@ -28,6 +26,8 @@ Below is a list of my publications: click through the linked title for more deta
 - A.P. Drager, **M. Weylandt**, G. Chuyong, D. Kenfack, D.W. Thomas, and A.E. Dunham. "[Ecological correlates of reproductive status in a guild of Afrotropical understory trees](publications/tree_reproduction.html)." 2019.
 
 ## Published
+
+- J.J. Nichol, **M. Weylandt**, G.M. Fricke, M. Moses, D. Bull, and L.P. Swiler. "[Causal Spatiotemporal Stencil Learning: Local Causal Dynamics in Complex Systems.](publications/castle.html)" To appear in *Journal of Geophysical Research: Machine Learning and Computation*. 2025+.
 
 - **M. Weylandt** and L. P. Swiler. "[Beyond PCA: Additional Dimension Reduction Techniques to Consider in the Development of Climate Fingerprints](publications/pca+.html)." *Journal of Climate* 37(5), pp.1723-1735. 2024.
 

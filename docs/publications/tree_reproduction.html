@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-e02ed2057a4ba0986bafc016a17ae4fe.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -207,6 +207,16 @@ ul.task-list li input[type="checkbox"] {
 
 <p><strong>Abstract:</strong> The relative abundance patterns of tropical trees have been of interest since the expeditions of Alfred Russel Wallace, but little is known about how differences in relative abundance relate to reproductive patterns. Flowering is resource-dependent and fitness differences as well as differences in the quality of the abiotic and biotic neighborhood may contribute to the variation in reproductive status responsible for population-level flowering patterns. This variation determines the density and distance between flowering conspecifics and may alter relative abundance extremes among species during reproduction, factors known to influence pollination success. We collected flowering status data for a guild of twenty-three co-occurring tree species that flower in the understory of the Korup Forest Dynamics Plot in Cameroon. We examined how the occurrence and location of reproductive events were related to spatial patterns of adult abundance, focal tree size, neighborhood crowding, and habitat, while accounting for the influence of shared ancestry. Across species, the probability of flowering was higher for individuals of rarer species and for larger individuals but was unrelated to neighborhood crowding or habitat differences. Relative abundance extremes were reduced when only flowering individuals were considered, leading to a negative relationship between plot abundance and flowering probability at the species level that was not structured by shared ancestry. Spatially, flowering conspecifics tended to be overdispersed relative to all adult conspecifics. Rare species are predicted to suffer Allee effects or reduced fitness due to the difficulty of finding mates at low densities and frequencies. Here, however, rare species appear to maximize the size of their mate pool, compared to abundant species. If this partial “leveling of the playing field” during reproduction is typical, it has consequences for our understanding of biodiversity maintenance and species coexistence in tropical forests.</p>
 <p><strong>Working Paper:</strong> <a href="https://doi.org/10.1101/2021.01.14.426416">BioRXiv 10.1101/2021.01.14.426416</a></p>
+<hr>
+<p><strong>Citation:</strong></p>
+<pre><code>@ARTICLE{Weylandt:2025-SSTPCA,
+  AUTHOR="Andrea P. Drager and Michael Weylandt and George Chuyong and David Kenfack and Duncan W. Thomas and Amy E. Dunham",
+  TITLE="Ecological correlates of reproductive status in a guild of Afrotropical understory trees",
+  YEAR=2025+,
+  DOI={10.1101/2021.01.14.426416},
+  JOURNAL="bioRxiv Pre-Print 2021.01.14.426416", 
+  URL="https://www.biorxiv.org/content/10.1101/2021.01.14.426416"
+}</code></pre>
 
 
 
@@ -293,8 +303,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -405,7 +413,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

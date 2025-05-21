@@ -52,3 +52,20 @@ tensor power method. While we don't explore this fully, this has clear implicati
 of our approach.
 
 **Presentations:** I presented this work at the 2022 Conference on New Advances in Statistics and Data Science (NASDS) and won the 2022 NASDS Best Poster Award. That poster can be found [here](../assets/sstpca/NASDS_poster.pdf). Slides from a longer (35-minute) presentation focusing on this work can be found [here](../assets/sstpca/sstpca_talk.pdf).
+
+
+---
+
+**Citation:**
+
+```
+@ARTICLE{Weylandt:2025-SSTPCA,
+  AUTHOR="Michael Weylandt and George Michailidis",
+  TITLE="Multivariate Analysis for Multiple Network Data via Semi-Symmetric Tensor PCA",
+  YEAR=2025+,
+  DOI={10.48550/arXiv.2202.04719},
+  JOURNAL="ArXiv Pre-Print 2202.04719", 
+  URL="https://arxiv.org/abs/2202.04719"
+}
+```
+

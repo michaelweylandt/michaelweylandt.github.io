@@ -23,4 +23,20 @@ author:
 ![Schematic Diagram of Convex Network Clustering](../assets/network_convex_clustering/schematic.png)
 
 
+---
+
+**Citation:**
+
+```
+@ARTICLE{Navarro:2025-NetworkClustering,
+  AUTHOR="Madeline Navarro and Genevera I. Allen and Michael Weylandt",
+  TITLE="Network Clustering for Latent State and Changepoint Detection",
+  YEAR=2025+,
+  DOI={10.48550/arXiv.2111.01273},
+  JOURNAL="ArXiv Pre-Print 2111.01273", 
+  URL="https://arxiv.org/abs/2111.01273"
+}
+```
+
+
 
