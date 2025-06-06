@@ -52,7 +52,7 @@ Below is a list of my publications: click through the linked title for more deta
 
 - **M. Weylandt.** "[Computational and Statistical Methodology for Highly-Structured Data](publications/thesis.html)." *Ph.D. Thesis, Rice University*. 2020.
 
-- L. Damiano, B. Peterson, and **M. Weylandt**. "[A Tutorial on Hidden Markov Models using Stan](publications/luis.Rmd)." *StanCon 2018*.
+- L. Damiano, B. Peterson, and **M. Weylandt**. "[A Tutorial on Hidden Markov Models using Stan](publications/luis.html)." *StanCon 2018*.
 
 <hr>
 

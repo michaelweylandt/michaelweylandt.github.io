@@ -38,3 +38,4 @@ author:
   BOOKTITLE="StanCon 2018: Proceedings of the 2018 Stan Users' Conference", 
   URL="https://mc-stan.org/events/stancon2018/"
 }
+```
