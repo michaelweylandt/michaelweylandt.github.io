@@ -27,7 +27,7 @@ Below is a list of my publications: click through the linked title for more deta
 
 ## Published
 
-- J.J. Nichol, **M. Weylandt**, G.M. Fricke, M. Moses, D. Bull, and L.P. Swiler. "[Causal Spatiotemporal Stencil Learning: Local Causal Dynamics in Complex Systems.](publications/castle.html)" To appear in *Journal of Geophysical Research: Machine Learning and Computation*. 2025+.
+- J.J. Nichol, **M. Weylandt**, G.M. Fricke, M. Moses, D. Bull, and L.P. Swiler. "[Causal Spatiotemporal Stencil Learning: Local Causal Dynamics in Complex Systems.](publications/castle.html)" *Journal of Geophysical Research: Machine Learning and Computation* 2(3), ePrint e2024JH000546. 2025.
 
 - **M. Weylandt** and L. P. Swiler. "[Beyond PCA: Additional Dimension Reduction Techniques to Consider in the Development of Climate Fingerprints](publications/pca+.html)." *Journal of Climate* 37(5), pp.1723-1735. 2024.
 
