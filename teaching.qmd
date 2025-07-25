@@ -7,7 +7,7 @@ title: "Teaching"
 1. STA9890: Statistical Learning for Data Mining: 
    - [Spring 2025](./STA9890)
    - Spring 2024
-2. STA9750/OPR9750: Basic Software Tools for Data Analysis: 
+2. [STA9750/OPR9750](./STA9750): Basic Software Tools for Data Analysis: 
    - Fall 2025[^fn0]
      - Full Semester (Traditional): Tuesday and Thursday Evenings
      - Half Semester (Accelerated) for the [Zicklin Online MSBA](https://zicklin.baruch.cuny.edu/academic-programs/graduate/ms/online-msba/)
