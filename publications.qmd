@@ -12,8 +12,6 @@ Below is a list of my publications: click through the linked title for more deta
 
 - C. O. Little†, **M. Weylandt**† and G. I. Allen. "[To the Fairness Frontier and Beyond: Identifying, Quantifying, and Optimizing the Fairness-Accuracy Pareto Frontier](publications/fairstacks.html)". 2022.
 
-- **M. Weylandt** and G. Michailidis. "[Multivariate Analysis for Multiple Network Data via Semi-Symmetric
-  Tensor PCA](publications/sstpca.html)". 2022.
 
 - **M. Weylandt** and G. I. Allen. "[Debiasing Projections for Fair Principal Components Analysis](publications/fair_pca.html)". 2021.
 
@@ -26,6 +24,11 @@ Below is a list of my publications: click through the linked title for more deta
 - A.P. Drager, **M. Weylandt**, G. Chuyong, D. Kenfack, D.W. Thomas, and A.E. Dunham. "[Ecological correlates of reproductive status in a guild of Afrotropical understory trees](publications/tree_reproduction.html)." 2019.
 
 ## Published
+
+- **M. Weylandt** and G. Michailidis. "[Multivariate Analysis for Multiple 
+  Network Data via Semi-Symmetric Tensor PCA](publications/sstpca.html)". To 
+  appear in the *Journal of the American Statistical Association: Theory \&
+  Methods* (2025+).
 
 - J.J. Nichol, **M. Weylandt**, G.M. Fricke, M. Moses, D. Bull, and L.P. Swiler. "[Causal Spatiotemporal Stencil Learning: Local Causal Dynamics in Complex Systems.](publications/castle.html)" *Journal of Geophysical Research: Machine Learning and Computation* 2(3), ePrint e2024JH000546. 2025.
 

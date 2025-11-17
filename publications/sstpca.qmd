@@ -1,12 +1,12 @@
 ---
 title: "Multivariate Analysis for Multiple Network Data via Semi-Symmetric Tensor PCA"
-description: "Submitted article (under review)"
+description: "To Appear in the *Journal of the American Statistical Association: Theory & Methods*"
 author:
   - name: Michael Weylandt
     url: https://michael-weylandt.com
-    affiliation: UF Informatics Insitute
+    affiliation: Zicklin School of Business, Baruch College, CUNY
   - name: George Michailidis
-    affiliation: Department of Statistics and Informatics Institute, University of Florida
+    affiliation: Department of Statistics and Data Science, University of California at Los Angeles
 ---
 
 **Abstract:** Network data are commonly collected in a variety of applications,
@@ -64,7 +64,7 @@ of our approach.
   TITLE="Multivariate Analysis for Multiple Network Data via Semi-Symmetric Tensor PCA",
   YEAR=2025+,
   DOI={10.48550/arXiv.2202.04719},
-  JOURNAL="ArXiv Pre-Print 2202.04719", 
+  JOURNAL="Journal of the American Statistical Association: Theory \& Methods (to appear)", 
   URL="https://arxiv.org/abs/2202.04719"
 }
 ```

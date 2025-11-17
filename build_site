@@ -22,7 +22,17 @@ list.files("publications",
     list_c() |>
     paste(collapse="\n") |>
     writeLines(con="assets/weylandt.bib")
+
+fs::file_copy("assets/weylandt.bib",
+              "docs/assets/weylandt.bib",
+              overwrite=TRUE)
 system("git add assets/weylandt.bib")
+
+fs::file_copy("assets/Weylandt_CV.pdf",
+              "docs/assets/Weylandt_CV.pdf",
+              overwrite=TRUE)
+system("git add assets/Weylandt_CV.pdf")
+
 
 library(quarto)
 quarto::quarto_render(".")
