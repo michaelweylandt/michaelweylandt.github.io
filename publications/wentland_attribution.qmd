@@ -1,5 +1,5 @@
 ---
-title: "Conditional pathways-based climate attribution"
+title: "Conditional Pathways-based Climate Attribution"
 description: "Submitted article (under review)"
 author:
   - name: Christopher R. Wentland
@@ -13,7 +13,30 @@ author:
     affiliation: Sandia National Laboratories
 ---
 
-**Abstract:** Attribution of climate impacts to natural and anthropogenic source forcings is essential for understanding and addressing climate effects. While standard methods like optimal fingerprinting have been effective for long-term changes, they often struggle in low signal-to-noise regimes typical of short-term forcings or with climate variables loosely related to the forcing. Single-step approaches fail to leverage additional climate information to enhance attribution certainty. To overcome these limitations, we propose a formal statistical framework that incorporates hypothesized physical pathways linking source forcings to downstream impacts. By establishing relationships based on scalar features and simple forcing response models, we create a series of conditional probabilities that describe the likelihood of the final impact. This method captures both primary and secondary processes by which the downstream impact evolves. Through hypothesis testing in a likelihood ratio framework, we demonstrate improved attribution confidence for source magnitudes in low signal-to-noise scenarios. Using the 1991 eruption of Mt. Pinatubo as a case study, we show that incorporating near-surface temperature and stratospheric radiative flux measurements enhances attribution certainty compared to analyses based solely on temperature, even at seasonal and regional scales. This framework holds promise for improving climate attribution assessments for unknown source magnitudes and low signal-to-noise impacts, where traditional methods may falter. Additionally, the formal inclusion of pathways allows for a deeper exploration of complex, multivariate relationships influencing source attribution.  
+**Abstract:** 
+Attribution of climate impacts to natural and anthropogenic source forcings is 
+essential for understanding and addressing climate effects. While standard 
+methods like optimal fingerprinting have been effective for attributing 
+long-term changes, they often struggle in low signal-to-noise regimes typical of
+short-term forcings or with climate variables far downstream from the forcing. 
+Single-step approaches fail to leverage additional climate information to 
+enhance attribution certainty. To overcome these limitations, we propose a 
+formal statistical framework that incorporates hypothesized physical pathways 
+linking source forcings to downstream impacts. By establishing relationships 
+based on scalar features and simple forcing response models, we create a series
+of conditional probabilities that describe the likelihood of the final impact.
+This method captures both primary and secondary processes by which the 
+downstream impact evolves. Through hypothesis testing in a likelihood ratio
+framework, we demonstrate improved attribution confidence for source magnitudes
+in low signal-to-noise scenarios. Using the 1991 eruption of Mt. Pinatubo as a
+case study, we show that incorporating near-surface temperature and
+top-of-atmosphere radiative flux measurements enhances attribution certainty
+compared to analyses based solely on temperature, even at seasonal and regional
+scales. This framework holds promise for improving climate attribution
+assessments for unknown source magnitudes and low signal-to-noise impacts, where
+traditional methods may falter. Additionally, the formal inclusion of pathways
+allows for a deeper exploration of complex, multivariate relationships
+influencing source attribution.
 
 **Working Copy:** [ArXiv 2409.01396](https://arxiv.org/abs/2409.01396)
 
@@ -22,11 +45,12 @@ author:
 **Citation:**
 
 ```
-@ARTICLE{Wentland:2024,
+@ARTICLE{Wentland:2026,
   AUTHOR="Christopher R. Wentland and Michael Weylandt and Laura P. Swiler and Diana Bull",
   TITLE="Conditional pathways-based climate attribution",
-  YEAR=2024,
+  YEAR="2026+",
   DOI={10.48550/arXiv.2409.01396},
-  JOURNAL="ArXiv Pre-Print 2409.01396"
+  JOURNAL="Climate Dynamics",
+  VOLUME="(To Appear)"
 }
 ```

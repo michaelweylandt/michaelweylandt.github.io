@@ -6,12 +6,9 @@ Below is a list of my publications: click through the linked title for more deta
 
 ## Submitted 
 
-- C.R. Wentland, **M. Weylandt**, L.P. Swiler, and D.Bull "[Conditional pathways-based climate attribution](publications/wentland_attribution.html)" 2024.
-
 - R. B. Lehoucq, **M. Weylandt**, and J. W. Berry. "[Optimal accuracy for linear sets of equations with the graph Laplacian](publications/ddcn.html)". 2024.
 
 - C. O. Little†, **M. Weylandt**† and G. I. Allen. "[To the Fairness Frontier and Beyond: Identifying, Quantifying, and Optimizing the Fairness-Accuracy Pareto Frontier](publications/fairstacks.html)". 2022.
-
 
 - **M. Weylandt** and G. I. Allen. "[Debiasing Projections for Fair Principal Components Analysis](publications/fair_pca.html)". 2021.
 
@@ -25,31 +22,77 @@ Below is a list of my publications: click through the linked title for more deta
 
 ## Published
 
+- C.R. Wentland†, **M. Weylandt**†, L.P. Swiler, and D.Bull "[Conditional
+  pathways-based climate attribution](publications/wentland_attribution.html)".
+  To appear in *Climate Dynamics* (2026+). 
+
 - **M. Weylandt** and G. Michailidis. "[Multivariate Analysis for Multiple 
   Network Data via Semi-Symmetric Tensor PCA](publications/sstpca.html)". To 
   appear in the *Journal of the American Statistical Association: Theory \&
-  Methods* (2025+).
+  Methods* (2026+). 
+  DOI:[10.1080/01621459.2025.2596288](https://dx.doi.org/10.1080/01621459.2025.2596288)
 
-- J.J. Nichol, **M. Weylandt**, G.M. Fricke, M. Moses, D. Bull, and L.P. Swiler. "[Causal Spatiotemporal Stencil Learning: Local Causal Dynamics in Complex Systems.](publications/castle.html)" *Journal of Geophysical Research: Machine Learning and Computation* 2(3), ePrint e2024JH000546. 2025.
+- J.J. Nichol, **M. Weylandt**, G.M. Fricke, M. Moses, D. Bull, and L.P. Swiler.
+  "[Causal Spatiotemporal Stencil Learning: Local Causal Dynamics in Complex
+  Systems.](publications/castle.html)" *Journal of Geophysical Research: Machine
+  Learning and Computation* 2(3), ePrint e2024JH000546. 2025.
+  DOI:[10.1029/2024JH000546](https://dx.doi.org/10.1029/2024JH000546)
 
-- **M. Weylandt** and L. P. Swiler. "[Beyond PCA: Additional Dimension Reduction Techniques to Consider in the Development of Climate Fingerprints](publications/pca+.html)." *Journal of Climate* 37(5), pp.1723-1735. 2024.
+- **M. Weylandt** and L. P. Swiler. "[Beyond PCA: Additional Dimension Reduction
+  Techniques to Consider in the Development of Climate  
+  Fingerprints](publications/pca+.html)." *Journal of Climate* 37(5), 
+  pp.1723-1735. 2024. 
+  DOI:[10.1175/JCLI-D-23-0267.1](https://dx.doi.org/10.1175/JCLI-D-23-0267.1)
 
-- **M. Weylandt**, G. Michailidis, and T. M. Roddenberry. "[Sparse Partial Least Squares for Coarse Noisy Graph Alignment](publications/conga.html)." *SSP 2021: Proceedings of the 2021 IEEE Statistical Signal Processing Workshop 2021*, pp.561-565. 2021.
+- **M. Weylandt**, G. Michailidis, and T. M. Roddenberry. "[Sparse Partial Least
+  Squares for Coarse Noisy Graph Alignment](publications/conga.html)." 
+  *SSP 2021: Proceedings of the 2021 IEEE Statistical Signal Processing Workshop
+  2021*, pp.561-565. 2021.
+  DOI:[10.1109/SSP49050.2021.9513753](https://dx.doi.org/10.1109/SSP49050.2021.9513753)
 
-- **M. Weylandt**, T.M. Roddenberry, and G. I. Allen. "[Simultaneous Grouping and Denoising via Sparse Convex Wavelet Clustering](publications/convex_wavelet_clustering.html)." *DSLW 2021: Proceedings of the IEEE Data Science and Learning Workshop 2021*. pp.1-8. 2021.
+- **M. Weylandt**, T.M. Roddenberry, and G. I. Allen. "[Simultaneous Grouping 
+  and Denoising via Sparse Convex Wavelet
+  Clustering](publications/convex_wavelet_clustering.html)." *DSLW 2021: 
+  Proceedings of the IEEE Data Science and Learning Workshop 2021*. pp.1-8. 2021.
+  DOI:[10.1109/DSLW51110.2021.9523413](https://dx.doi.org/10.1109/DSLW51110.2021.9523413)
 
-- **M. Weylandt** and G. Michailidis. "[Automatic Registration and Clustering of Time Series](publications/trout.html)." *ICASSP 2021: Proceedings of the 2021 IEEE International Conference on Acoustics, Speech and Signal Processing*, pp.5609-5613. 2021.
+- **M. Weylandt** and G. Michailidis. "[Automatic Registration and Clustering of
+  Time Series](publications/trout.html)." *ICASSP 2021: Proceedings of the 2021
+  IEEE International Conference on Acoustics, Speech and Signal Processing*,
+  pp.5609-5613. 2021. 
+  DOI:[10.1109/ICASSP39728.2021.9414417](https://dx.doi.org/10.1109/ICASSP39728.2021.9414417)
 
-- J.S. Morris, M.M. Hassan, Y.E. Zohner, Z. Wang, L. Xiao, A. Rashid, A. Haque, R. Abdel-Wahad, Y.A. Mohamed, K.L. Ballard, R.A. Wolff, B. George, L. Li, G. I. Allen, **M. Weylandt**, D. Li, W. Wang, K. Raghav, J. Yao, H.M. Amin, and A.O. Kaseb. "[HepatoScore‐14: Measures of biological heterogeneity significantly improve prediction of hepatocellular carcinoma risk](publications/hepatoscore14.html)." *Hepatology* 73(6), pp. 2278-2292. 2021.
-- **M. Weylandt.** "[Multi-Rank Sparse and Functional PCA: Manifold Optimization and Iterative Deflation Techniques](publications/mrsfpca.html)." *CAMSAP 2019: Proceedings of the IEEE 8th International Workshop on Computational Advances in Multi-Sensor Adaptive Processing*, pp.500-504. 2019.
+- J.S. Morris, M.M. Hassan, Y.E. Zohner, Z. Wang, L. Xiao, A. Rashid, A. Haque, 
+  R. Abdel-Wahad, Y.A. Mohamed, K.L. Ballard, R.A. Wolff, B. George, L. Li, 
+  G.I. Allen, **M. Weylandt**, D. Li, W. Wang, K. Raghav, J. Yao, H.M. Amin, 
+  and A.O. Kaseb. "[HepatoScore‐14: Measures of biological heterogeneity
+  significantly improve prediction of hepatocellular carcinoma
+  risk](publications/hepatoscore14.html)." *Hepatology* 73(6), 
+  pp. 2278-2292. 2021. DOI:[10.1002/hep.31555](https://dx.doi.org/10.1002/hep.31555)
 
-- **M. Weylandt**, J. Nagorski, and G. I. Allen. "[Interactive Visualizations and Fast Computation for Convex Clustering via Algorithmic Regularization](publications/clustRviz.html)." *Journal of Computational and Graphical Statistics* 29(1), pp. 87-96. 2020.
+- **M. Weylandt.** "[Multi-Rank Sparse and Functional PCA: Manifold Optimization
+  and Iterative Deflation Techniques](publications/mrsfpca.html)." *CAMSAP 2019:
+  Proceedings of the IEEE 8th International Workshop on Computational Advances
+  in Multi-Sensor Adaptive Processing*, pp.500-504. 2019.
+  DOI:[10.1109/CAMSAP45676.2019.9022486](https://dx.doi.org/10.1109/CAMSAP45676.2019.9022486)
+
+- **M. Weylandt**, J. Nagorski, and G. I. Allen. "[Interactive Visualizations 
+  and Fast Computation for Convex Clustering via Algorithmic
+  Regularization](publications/clustRviz.html)." *Journal of Computational and
+  Graphical Statistics* 29(1), pp. 87-96. 2020.
+  DOI:[10.1080/10618600.2019.1629943](https://dx.doi.org/10.1080/10618600.2019.1629943)
 
     Winner of the *ASA Section on Statistical Learning and Data Science (SLDS) 2019 Student Paper Competition*
 
-- **M. Weylandt**. "[Splitting Methods for Convex Bi-Clustering and Co-Clustering](publications/coclustering_algs.html)." *DSW 2019: Proceedings of the IEEE Data Science Workshop 2019*, pp.237-244. 2019.
+- **M. Weylandt**. "[Splitting Methods for Convex Bi-Clustering and
+  Co-Clustering](publications/coclustering_algs.html)." *DSW 2019: Proceedings
+  of the IEEE Data Science Workshop 2019*, pp.237-244. 2019.
+  DOI:[10.1109/DSW.2019.8755599](https://dx.doi.org/10.1109/DSW.2019.8755599)
 
-- G. I. Allen and **M. Weylandt**. "[Sparse and Functional Principal Components Analysis](publications/sfpca.html)." *DSW 2019: Proceedings of the IEEE Data Science Workshop 2019*, pp.11-16. 2019.
+- G. I. Allen and **M. Weylandt**. "[Sparse and Functional Principal Components
+  Analysis](publications/sfpca.html)." *DSW 2019: Proceedings of the IEEE Data
+  Science Workshop 2019*, pp.11-16. 2019.
+  DOI:[10.1109/DSW.2019.8755778](https://dx.doi.org/10.1109/DSW.2019.8755778)
 
 ## Other Professional Writing
 
@@ -57,6 +100,8 @@ Below is a list of my publications: click through the linked title for more deta
 
 - L. Damiano, B. Peterson, and **M. Weylandt**. "[A Tutorial on Hidden Markov Models using Stan](publications/luis.html)." *StanCon 2018*.
 
-<hr>
+---
 
 A BibTeX file for these publications can be found [here](assets/weylandt.bib).
+
+†Denotes equal contribution.
